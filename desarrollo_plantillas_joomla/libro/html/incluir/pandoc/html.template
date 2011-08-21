@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="es-es" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es-es" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es-es" class="ie8"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="es-es">
+<!--<![endif]-->
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="robots" content="index, follow"/>
+	<title>Desarrollo de plantillas para Joomla!</title>
+	<link rel="stylesheet" href="incluir/css/blueprint/screen.css" type="text/css" media="screen, projection, print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="incluir/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="incluir/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<link href="http://fonts.googleapis.com/css?family=Rock+Salt:regular?text=Biblioteca|Shanti|Reenie+Beanie&amp;amp;subset=latin" rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" href="incluir/css/estilos.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="incluir/css/estilos-imprimir.css" type="text/css" media='print' />
+	<link rel="canonical" href="http://biblioteca.comunidadjoomla.org/libros/plantillas-joomla/" />
+	</head>
+<body>
+
+	<div class="container">
+	
+		<div id="box" class="span-24">
+		
+			<div id="header" class="span-24">
+				<div id="logo" class="span-12 prepend-1">
+					<h1 class="clearfix">
+					<a href="http://biblioteca.comunidadjoomla.org/" title="Biblioteca Comunidad Joomla|">
+					<span class="text">Biblioteca</span>
+					<span class="logo">Comunidad Joomla</span>
+					</a>
+					</h1>
+				</div>
+				<div id="menu" class="span-11 last">
+					<div id="menu_social">
+						<ul class="menu">
+							<li id="item-102"><a href="http://www.facebook.com/pages/comunidadjoomla/191994190688" title="Facebook de Comunidad Joomla">Facebook de Comunidad Joomla</a></li>
+							<li id="item-103"><a href="http://twitter.com/comunidadjoomla" title="Twitter de Comunidad Joomla">Twitter de Comunidad Joomla</a></li>
+							<li id="item-104"><a href="http://www.linkedin.com/groups?mostPopular=&gid=2994050" title="LinkedIn de Comunidad Joomla">LinkedIn de Comunidad Joomla</a></li>
+						</ul>
+					</div>
+					<div id="menu_mainlinks">
+						<ul class="menu">
+							<li id="item-105"><a href="http://comunidadjoomla.org/" title="Portal Comunidad Joomla">Portal</a></li>
+							<li id="item-106"><a href="http://foro.comunidadjoomla.org/" title="Foro Comunidad Joomla">Foro</a></li>
+							<li id="item-101" class="current active"><a href="/">Biblioteca</a></li>
+							<li id="item-107"><a href="http://joomlacode.org/gf/project/comunidadjoomla/frs/" title="Centro de descargas">Centro de descargas</a></li>
+							<li id="item-108"><a href="http://comunidadjoomla.org/contacto.html" title="Contacto">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="content" class="libro span-22 append-1 prepend-1 last">
+				
+				<div id="titulo">
+					<h1 class="alt">Desarrollo de plantillas para Joomla!</h1>
+				</div>
+				
+				<div id="imprimir"></div>
+				
+				<div id="sobre">
+					
+					<h2>Sobre este libro</h2>
+						
+						<ul>
+					    	<li><strong>Autor</strong>: <a href="http://dzign.us/">Leandro D'Onofrio</a> para <a href="http://comunidadjoomla.org/">Comunidad Joomla</a> y <a href="http://biblioteca.comunidadjoomla.org/">Biblioteca Comunidad Joomla</a>.</li>
+					    	
+					    	<li><strong>Correcciones</strong>: <a href="http://comunidadjoomla.org/">Rafael Gómez</a> y <a href="http://comunidadjoomla.org/">Gustavo Raúl Aragón</a>.</li>
+					
+					    	<li><strong>Licencia</strong>: <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/es/">Creative Commons Reconocimiento-NoComercial-CompartirIgual 2.5 España</a>.</li>
+					    	<li><strong>Última actualización</strong>: $date$ (<a href="https://github.com/comunidadjoomla/cj_biblioteca/commits/master" rel="_blank">ver cambios</a>).
+					    </ul>
+					
+					<h2>Obtener el material de aprendizaje </h2>
+					
+					<p>El material de aprendizaje y el código fuente de los ejemplos que se desarrollan en el libro están hospedados en un <a href="https://github.com/dzignus/manual_jplantillas">repositorio de Github</a>. Desde allí es posible descargar un archivo .zip o .tar con todo el material.</p>
+					
+					<h4><a href="https://github.com/dzignus/manual_jplantillas/wiki/%C2%BFTienes-correcciones,-mejoras-o-quieres-colaborar-en-el-libro%3F">¿Tienes correcciones, mejoras o quieres colaborar en el libro?</a></h4>
+					
+				</div>
+				
+				<div id="$idprefix$TOC">
+				
+					$if(toc)$
+						<h2 id="indice">Índice</h2>
+						$toc$
+					$endif$
+					
+				</div>
+				
+				$body$
+				</div>
+			
+			</div>
+			
+		<div id="copyright" class="span-24">
+				<p>
+					Material bajo licencia <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/es/">Creative Commons Reconocimiento-NoComercial-CompartirIgual 2.5 España</a>: Es libre de copiar, distribuir, transmitir y modificar el trabajo, siempre y cuando haga referencia la autoría original a <a href="http://dzign.us/">Leandro D'Onofrio</a>, para <a href="http://comunidadjoomla.org/">Comunidad Joomla</a> y <a href="http://biblioteca.comunidadjoomla.org/">Biblioteca Comunidad Joomla</a>. Si altera, transforma o crea una obra derivada, debera distribuir el resultado bajo una licencia igual, similar o compatible. Cualquiera de las condiciones mencionadas pueden no aplicarse si obtiene permisos del autor. Para cualquier reutilización o distribución, debera dejar en claro la licencia, la mejor manera para hacerlo es a través de un enlace hacia la licencia <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/es/">Creative Commons Reconocimiento-NoComercial-CompartirIgual 2.5 España</a>.
+				</p>
+				<p>
+					COMUNIDADJOOMLA.ORG is not affiliated with or endorsed by the Joomla! Project or Open Source Matters. The Joomla! name and logo are used under a limited license granted by Open Source Matters the trademark holder in the United States and other countries.
+				</p>
+				<p>
+					Copyright © 2008 Open Source Matters. Todos los derechos reservados. Joomla! es un software libre distribuido bajo la licencia GNU/GPL.
+				</p>
+		</div>
+			
+	</div>
+</body>
+</html>
