@@ -39,7 +39,7 @@ Todo el código de ejemplo que se desarrolla en el manual está dentro de la car
 
 
 
-# [¿Tienes correcciones, mejoras o quieres colaborar en el libro?](https://github.com/dzignus/manual_jplantillas/wiki/%C2%BFTienes-correcciones,-mejoras-o-quieres-colaborar-en-el-libro%3F)
+# [¿Tienes correcciones, mejoras o quieres colaborar en el libro?](https://github.com/comunidadjoomla/cj_biblioteca/wiki/%C2%BFTienes-correcciones%2C-mejoras-o-quieres-colaborar-en-el-libro%3F)
 
 
 
