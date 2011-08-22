@@ -19,7 +19,7 @@ Cada error siempre va acompañado por un código de estado HTTP. Los tipos de er
 
 Como se puede observar, no posee un aspecto "muy amigable".
 
-Lo que se hará es modificar la página de errores para que herede el diseño del sitio. Para esto, hacerlo es necesario modificar el archivo `error.php` que se encuentra en la carpeta raiz de la plantilla. Al abrir al archivo se encontrará lo siguiente:
+Lo que se hará es modificar la página de errores para que herede el diseño del sitio. Para esto, hacerlo es necesario modificar el archivo `error.php` que se encuentra en la carpeta raíz de la plantilla. Al abrir al archivo se encontrará lo siguiente:
 
 
 ~~~~~~~~~{.php}

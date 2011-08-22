@@ -237,7 +237,7 @@ TPL_INTERPOINT_POSITION_INTERPOINT-MENU_INFERIOR="Menú inferior"
 > Note que cada referencia de descripción de módulos esta compuesta por `TPL_(nombre de la plantilla)_POSITION_(nombre de la posición del módulo)`. También se ha agregado nuevamente la descripción de la plantilla con la misma referencia que se usó anteriormente. Los textos de descripción de cada posición se pueden cambiar al gusto.
 
 
-> En el momento de instalar la plantilla, los archivos `es-ES.tpl_interpoint.ini` y `es-ES.tpl_interpoint.sys.ini` se copiarán dentro de la carpeta `language/es-ES`, en el directorio raiz del CMS.
+> En el momento de instalar la plantilla, los archivos `es-ES.tpl_interpoint.ini` y `es-ES.tpl_interpoint.sys.ini` se copiarán dentro de la carpeta `language/es-ES`, en el directorio raíz del CMS.
 
 
 > En el archivo `templateDetails.xml` también se especifican las opciones de personalización de la plantilla. Más adelante se explicará como añadir esta característica y de que forma.

@@ -24,7 +24,7 @@ En este caso de los módulos, la carpeta `tmpl` posee archivos que se utilizaran
 
 
 > En Joomla, los archivos que componen cada componente pueden encontrarse dentro de la carpeta `components`, en el directorio raíz del CMS. Allí cada componente está separado por carpetas diferentes (`com_banners`, `com_contact`, etc).
-> En el caso de los módulos, estos se encuentran en la carpeta `modules`, también en el directorio raiz del CMS. Y al igual que el caso anterior, cada módulo está separado en una carpeta diferente (`mod_articles_archive`, `mod_articles_categories`, etc). 
+> En el caso de los módulos, estos se encuentran en la carpeta `modules`, también en el directorio raíz del CMS. Y al igual que el caso anterior, cada módulo está separado en una carpeta diferente (`mod_articles_archive`, `mod_articles_categories`, etc). 
 
 
 > Si desea conocer un poco más sobre MVC puede consultar:

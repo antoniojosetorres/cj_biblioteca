@@ -4,12 +4,12 @@
 
 ## Estilos de plantillas, parámetros de configuración y maquetaciones diferentes por secciones
 
-Como se comentó la principio del manual, a partir de Joomla! 1.6, el CMS posee una nueva funcionalidad llamada estilos de plantillas. Dichos estilos permiten, a través de parámetros de configuración, variar el diseño de la plantilla en varios aspectos: colores, imágenes, maquetación, tamaños, entre otras características. A su vez cada estilo puede ser asignado a una o varias secciones especificas.
+Como se comentó la principio del manual, a partir de Joomla! 1.6, el CMS incorpora una nueva funcionalidad llamada estilos de plantillas. Dichos estilos permiten, a través de parámetros de configuración, variar el diseño de la plantilla en varios aspectos: colores, imágenes, maquetación, tamaños, entre otras características. A su vez cada estilo puede ser asignado a una o varias secciones especificas.
 
 ![Parámetros de configuración de la plantilla](incluir/figuras/image44.png)
 
 
-> Recuerde que el listado de estilos de plantillas se puede encontrar yendo, en la administración, a Extensiones > Gestor de plantillas. Al ingresar a alguno de los items enlistados se pueden visualizar los parámetros disponibles para configurar y a que secciones aplicarlos.
+> Recuerde que el listado de estilos de plantillas se puede encontrar yendo, en la administración, a Extensiones > Gestor de plantillas. Al ingresar a alguno de los ítems enlistados se pueden visualizar los parámetros disponibles para configurar y a que secciones aplicarlos.
 
 
 En el caso de la plantilla creada de ejemplo, se le añadirán varios parámetros de configuración para poder:
@@ -402,7 +402,7 @@ Para poder aplicar la nueva maquetación en el sitio utilizando los estilos de p
 
 * En la administración, ir al gestor de estilos de plantillas;
 * Duplicar el estilo predeterminado para el sitio;
-* Acceder a esta copia, cambiar la opción de maquetación y decidir a que items del menú desea ver el nuevo diseño.
+* Acceder a esta copia, cambiar la opción de maquetación y decidir a que ítems del menú desea ver el nuevo diseño.
 
 
 Por ejemplo, si se selecciona asignar el nuevo diseño a una categoría dada, al ingresar a un articulo de esa categoría se visualizará la sección central desacomodada.

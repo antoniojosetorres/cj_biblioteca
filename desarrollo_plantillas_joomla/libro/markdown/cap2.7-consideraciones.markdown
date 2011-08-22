@@ -9,7 +9,7 @@ El trabajo ya esta casi listo, las últimas tareas a realizar son:
 
 * Experimentar con diferentes tipos de contenidos para poder comprobar lo flexible que es la plantilla y en que situaciones es posible encontrar un error.
 
-* Crear dos capturas de pantallas: `template_preview.png` que será una imagen a tamaño real del *template* y `template_thumbnail.png` que será una imagen miniatura del diseño. Dichas imágenes van dentro de la carpeta raiz de la plantilla.
+* Crear dos capturas de pantallas: `template_preview.png` que será una imagen a tamaño real del *template* y `template_thumbnail.png` que será una imagen miniatura del diseño. Dichas imágenes van dentro de la carpeta raíz de la plantilla.
 
 
 ![Detalles de la plantilla](incluir/figuras/image37.png)

@@ -243,7 +243,7 @@ En esta parte del código, `$this` se utiliza para completar el valor del atribu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-El siguiente trozo de código tiene un solo objetivo: Leer la configuración del CMS y determinar la dirección de lectura. En caso que el valor sea `rtl` (de derecha a izquierda  ó *right to left* en inglés) se cargan los estilos apropiados.
+El siguiente trozo de código tiene un solo objetivo: Leer la configuración del CMS y determinar la dirección de lectura. En caso que el valor sea `rtl` (de derecha a izquierda  o *right to left* en inglés) se cargan los estilos apropiados.
 Si el sitio tendrá un sentido de lectura de izquierda a derecha, este trozo de código se puede eliminar.
 
 > Note que el bloque condicional `if` no tiene la sintaxis clásica que se suele utilizar:

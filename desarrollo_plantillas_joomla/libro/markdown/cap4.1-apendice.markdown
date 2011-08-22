@@ -27,7 +27,7 @@ En este caso, se estará eliminando de la plantilla los archivos `mootools-core.
 
 ## Estilos determinados para diferentes navegadores
 
-Un problema común al diseñar una página es tratar de hacer que el diseño sea compatible con la mayoría de los navegadores. Joomla! 1.6 posee una nueva característica que es la incorporación de estilos específicos dependiendo del tipo de navegador web. 
+Un problema común al diseñar una página es tratar de hacer que el diseño sea compatible con la mayoría de los navegadores. A partir de Joomla! 1.6 el CMS incorpora una nueva característica que es la incorporación de estilos específicos dependiendo del tipo de navegador web. 
 
 Suponiendo que se desea mostrar estilos diferentes para *Internet Explorer* y *Mozilla Firefox*, lo primero a realizar será crear dos archivos: `template_msie.css` y `template_mozilla.css`. El primero será el archivo que cargará *Internet Explorer*, mientras que el otro será el que cargue *Mozilla Firefox*. 
 

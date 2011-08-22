@@ -19,7 +19,7 @@ Llegó el momento de añadir diseño a la plantilla. Para eso se editará el arc
 > A medida que se van aplicando los estilos es conveniente ir rellenando el sitio con contenidos (menús, artículos, etc.) para poder visualizar de mejor manera el trabajo.
 
 
-> El nivel de comprensión de los estilos mostrados a continuación dependaran de los conocimientos de CSS que posea. Si desea introducirse más en profundidad con los estilos en cascada, puede consultar la colección referente a este tema en **LibrosWeb**: <http://www.librosweb.es/>.
+> El nivel de comprensión de los estilos mostrados a continuación dependarán de los conocimientos de CSS que posea. Si desea introducirse más en profundidad con los estilos en cascada, puede consultar la colección referente a este tema en **LibrosWeb**: <http://www.librosweb.es/>.
 > Aún así, los estilos descritos son de ejemplo, los cuales pueden mejorarse o implementarse de otra forma.
 
 

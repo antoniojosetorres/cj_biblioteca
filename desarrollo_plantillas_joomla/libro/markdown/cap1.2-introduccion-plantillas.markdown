@@ -15,7 +15,9 @@ Antes de comenzar, puede que se pregunte ¿qué es una plantilla y para qué sir
 * Y funcionalidades especificadas que dependerán de cada plantilla.
 
 
-En particular, Joomla posee un excelente sistema de plantillas que permite adaptar cualquier sitio a los requerimientos deseados. Además, a medida que el *CMS* (Sistema de gestión de contenidos) evoluciona, el mismo va incorporando nuevas características que permiten mejorar la experiencia al momento de crear una plantilla. Actualmente, la última versión es la 1.6, la cual incorpora:
+En particular, Joomla posee un excelente sistema de plantillas que permite adaptar cualquier sitio a los requerimientos deseados. Además, a medida que el *CMS* (Sistema de gestión de contenidos) evoluciona, el mismo va incorporando nuevas características que permiten mejorar la experiencia al momento de crear una plantilla. 
+
+A partir de la versión 1.6, el CMS incorpora varias características nuevas relacionadas al desarrollo de plantillas:
 
 
 * Tres nuevos *templates* listos para utilizar y adaptar a las necesidades del sitio;
@@ -27,7 +29,7 @@ En particular, Joomla posee un excelente sistema de plantillas que permite adapt
 * Detección integrada de navegadores, para poder cargar un estilo diferente para cada tipo de navegador.
 
 
-> Si desea conocer en mayor detalle otras características nuevas de Joomla! 1.6, puede visitar el sitio oficial dedicado a dicha versión: <http://www.joomla.org/16/>
+> Si desea conocer en mayor detalle otras características de Joomla! 1.6, puede visitar el sitio oficial dedicado a dicha versión: <http://www.joomla.org/16/>
 
 
 
@@ -68,7 +70,7 @@ Esta funcionalidad lo que permite es, utilizando un mismo *template* otorgar un 
 > Las características de personalización dependerán de cada plantilla. Existirán plantillas que otorgarán muchas opciones y flexibilidad mientras que otras otorgarán pocas o ninguna.
 
 
-Al acceder a uno de los items enlistados, es posible acceder a las opciones de personalización y especificar a qué secciones se desea asignar el estilo.
+Al acceder a uno de los ítems enlistados, es posible acceder a las opciones de personalización y especificar a qué secciones se desea asignar el estilo.
 
 
 ![La sección 'Editar estilo' en la administración del CMS](incluir/figuras/image25.png)
@@ -80,7 +82,7 @@ El nivel de personalización puede ser variado: Tamaño de estructuras, cambios 
 
 ### Estructura básica de una plantilla
 
-Las plantillas en Joomla! van alojadas dentro de la carpeta `templates`, en el directorio raiz del CMS. Allí dentro, cada plantilla esta separada por carpetas.
+Las plantillas en Joomla! van alojadas dentro de la carpeta `templates`, en el directorio raíz del CMS. Allí dentro, cada plantilla esta separada por carpetas.
 
 Todas las plantillas poseen la siguiente estructura básica de archivos y carpetas.
 
@@ -97,7 +99,7 @@ Los archivos y carpetas dentro de la estructura pueden dividirse en obligatorios
 Son obligatorios, ya que si no están presentes, la plantilla no funcionará:
 
 
-* **Carpeta raiz**: Es la carpeta que contiene todos los archivos de la plantilla. Su nombre no debe poseer espacios intermedios. Su ubicación está dentro de la carpeta `templates`, que se encuentra en el directorio raíz;
+* **Carpeta raíz**: Es la carpeta que contiene todos los archivos de la plantilla. Su nombre no debe poseer espacios intermedios. Su ubicación está dentro de la carpeta `templates`, que se encuentra en el directorio raíz;
 
 * **index.php**: Archivo principal de la plantilla. Contiene la estructura básica, así como también las llamadas a archivos CSS y JavaScript. Su contenido está formado por etiquetas HTML y PHP;
 

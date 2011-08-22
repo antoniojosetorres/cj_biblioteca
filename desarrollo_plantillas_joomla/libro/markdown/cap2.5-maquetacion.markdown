@@ -138,7 +138,7 @@ En esta sección se tendrá en primer lugar dos columnas y luego una columna ocu
 ![Diseño de las columnas del medio](incluir/figuras/image08.png)
 
 
-Las columnas del medio cargaran tres artículos publicados en el home del sitio. Para eso se utilizará la etiqueta `<jdoc:include type="component" />`:
+Las columnas del medio cargaran tres artículos publicados en la página principal del sitio. Para eso se utilizará la etiqueta `<jdoc:include type="component" />`:
 
 
 ~~~~~~~~~{.php}

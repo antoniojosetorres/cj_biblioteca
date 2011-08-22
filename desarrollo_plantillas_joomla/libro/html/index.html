@@ -271,7 +271,8 @@
     <li><p>El diseño (a través de estilos en cascada e imágenes);</p></li>
     <li><p>Y funcionalidades especificadas que dependerán de cada plantilla.</p></li>
     </ul>
-    <p>En particular, Joomla posee un excelente sistema de plantillas que permite adaptar cualquier sitio a los requerimientos deseados. Además, a medida que el <em>CMS</em> (Sistema de gestión de contenidos) evoluciona, el mismo va incorporando nuevas características que permiten mejorar la experiencia al momento de crear una plantilla. Actualmente, la última versión es la 1.6, la cual incorpora:</p>
+    <p>En particular, Joomla posee un excelente sistema de plantillas que permite adaptar cualquier sitio a los requerimientos deseados. Además, a medida que el <em>CMS</em> (Sistema de gestión de contenidos) evoluciona, el mismo va incorporando nuevas características que permiten mejorar la experiencia al momento de crear una plantilla.</p>
+    <p>A partir de la versión 1.6, el CMS incorpora varias características nuevas relacionadas al desarrollo de plantillas:</p>
     <ul>
     <li><p>Tres nuevos <em>templates</em> listos para utilizar y adaptar a las necesidades del sitio;</p></li>
     <li><p>El código generado por la aplicación es 100% XHTML estricto;</p></li>
@@ -279,7 +280,7 @@
     <li><p>Detección integrada de navegadores, para poder cargar un estilo diferente para cada tipo de navegador.</p></li>
     </ul>
     <blockquote>
-    <p>Si desea conocer en mayor detalle otras características nuevas de Joomla! 1.6, puede visitar el sitio oficial dedicado a dicha versión: <a href="http://www.joomla.org/16/"><code class="url">http://www.joomla.org/16/</code></a></p>
+    <p>Si desea conocer en mayor detalle otras características de Joomla! 1.6, puede visitar el sitio oficial dedicado a dicha versión: <a href="http://www.joomla.org/16/"><code class="url">http://www.joomla.org/16/</code></a></p>
     </blockquote>
     <div id="tipos-de-plantillas">
     <h3><a href="#TOC">Tipos de plantillas</a></h3>
@@ -307,7 +308,7 @@
     <blockquote>
     <p>Las características de personalización dependerán de cada plantilla. Existirán plantillas que otorgarán muchas opciones y flexibilidad mientras que otras otorgarán pocas o ninguna.</p>
     </blockquote>
-    <p>Al acceder a uno de los items enlistados, es posible acceder a las opciones de personalización y especificar a qué secciones se desea asignar el estilo.</p>
+    <p>Al acceder a uno de los ítems enlistados, es posible acceder a las opciones de personalización y especificar a qué secciones se desea asignar el estilo.</p>
     <div class="figure">
     <img src="incluir/figuras/image25.png" alt="La secci&#243;n Editar estilo en la administraci&#243;n del CMS" /><p class="caption">La sección ‘Editar estilo’ en la administración del CMS</p>
     </div>
@@ -315,7 +316,7 @@
     </div>
     <div id="estructura-b&#225;sica-de-una-plantilla">
     <h3><a href="#TOC">Estructura básica de una plantilla</a></h3>
-    <p>Las plantillas en Joomla! van alojadas dentro de la carpeta <code>templates</code>, en el directorio raiz del CMS. Allí dentro, cada plantilla esta separada por carpetas.</p>
+    <p>Las plantillas en Joomla! van alojadas dentro de la carpeta <code>templates</code>, en el directorio raíz del CMS. Allí dentro, cada plantilla esta separada por carpetas.</p>
     <p>Todas las plantillas poseen la siguiente estructura básica de archivos y carpetas.</p>
     <div class="figure">
     <img src="incluir/figuras/image05.png" alt="Esquema de la estructura b&#225;sica de una plantilla" /><p class="caption">Esquema de la estructura básica de una plantilla</p>
@@ -325,7 +326,7 @@
     <h4><a href="#TOC">Carpetas y archivos obligatorios</a></h4>
     <p>Son obligatorios, ya que si no están presentes, la plantilla no funcionará:</p>
     <ul>
-    <li><p><strong>Carpeta raiz</strong>: Es la carpeta que contiene todos los archivos de la plantilla. Su nombre no debe poseer espacios intermedios. Su ubicación está dentro de la carpeta <code>templates</code>, que se encuentra en el directorio raíz;</p></li>
+    <li><p><strong>Carpeta raíz</strong>: Es la carpeta que contiene todos los archivos de la plantilla. Su nombre no debe poseer espacios intermedios. Su ubicación está dentro de la carpeta <code>templates</code>, que se encuentra en el directorio raíz;</p></li>
     <li><p><strong>index.php</strong>: Archivo principal de la plantilla. Contiene la estructura básica, así como también las llamadas a archivos CSS y JavaScript. Su contenido está formado por etiquetas HTML y PHP;</p></li>
     <li><p><strong>templateDetails.xml</strong>: Archivo XML que sirve para instalar la plantilla en el CMS. Posee la siguiente información:</p>
     <ul>
@@ -619,7 +620,7 @@
     <p>Note que cada referencia de descripción de módulos esta compuesta por <code>TPL_(nombre de la plantilla)_POSITION_(nombre de la posición del módulo)</code>. También se ha agregado nuevamente la descripción de la plantilla con la misma referencia que se usó anteriormente. Los textos de descripción de cada posición se pueden cambiar al gusto.</p>
     </blockquote>
     <blockquote>
-    <p>En el momento de instalar la plantilla, los archivos <code>es-ES.tpl_interpoint.ini</code> y <code>es-ES.tpl_interpoint.sys.ini</code> se copiarán dentro de la carpeta <code>language/es-ES</code>, en el directorio raiz del CMS.</p>
+    <p>En el momento de instalar la plantilla, los archivos <code>es-ES.tpl_interpoint.ini</code> y <code>es-ES.tpl_interpoint.sys.ini</code> se copiarán dentro de la carpeta <code>language/es-ES</code>, en el directorio raíz del CMS.</p>
     </blockquote>
     <blockquote>
     <p>En el archivo <code>templateDetails.xml</code> también se especifican las opciones de personalización de la plantilla. Más adelante se explicará como añadir esta característica y de que forma.</p>
@@ -831,7 +832,7 @@
           &lt;link rel=&quot;stylesheet&quot; href=&quot;&lt;?php echo $this-&gt;baseurl ?&gt;/templates/&lt;?php echo $this-&gt;template ?&gt;/css/template_rtl.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
     &lt;?php endif; ?&gt;
     </code></pre>
-    <p>El siguiente trozo de código tiene un solo objetivo: Leer la configuración del CMS y determinar la dirección de lectura. En caso que el valor sea <code>rtl</code> (de derecha a izquierda ó <em>right to left</em> en inglés) se cargan los estilos apropiados. Si el sitio tendrá un sentido de lectura de izquierda a derecha, este trozo de código se puede eliminar.</p>
+    <p>El siguiente trozo de código tiene un solo objetivo: Leer la configuración del CMS y determinar la dirección de lectura. En caso que el valor sea <code>rtl</code> (de derecha a izquierda o <em>right to left</em> en inglés) se cargan los estilos apropiados. Si el sitio tendrá un sentido de lectura de izquierda a derecha, este trozo de código se puede eliminar.</p>
     <blockquote>
     <p>Note que el bloque condicional <code>if</code> no tiene la sintaxis clásica que se suele utilizar:</p>
     <pre class="php"><code>if () {
@@ -1092,7 +1093,7 @@
     <div class="figure">
     <img src="incluir/figuras/image08.png" alt="Dise&#241;o de las columnas del medio" /><p class="caption">Diseño de las columnas del medio</p>
     </div>
-    <p>Las columnas del medio cargaran tres artículos publicados en el home del sitio. Para eso se utilizará la etiqueta <code>&lt;jdoc:include type=&quot;component&quot; /&gt;</code>:</p>
+    <p>Las columnas del medio cargaran tres artículos publicados en la página principal del sitio. Para eso se utilizará la etiqueta <code>&lt;jdoc:include type=&quot;component&quot; /&gt;</code>:</p>
     <pre class="php"><code>&lt;!-- Comienzo Contenido principal --&gt;
     &lt;div id=&quot;contenido&quot; class=&quot;span-24&quot;&gt;
         &lt;jdoc:include type=&quot;component&quot; /&gt;
@@ -1367,7 +1368,7 @@
     <p>A medida que se van aplicando los estilos es conveniente ir rellenando el sitio con contenidos (menús, artículos, etc.) para poder visualizar de mejor manera el trabajo.</p>
     </blockquote>
     <blockquote>
-    <p>El nivel de comprensión de los estilos mostrados a continuación dependaran de los conocimientos de CSS que posea. Si desea introducirse más en profundidad con los estilos en cascada, puede consultar la colección referente a este tema en <strong>LibrosWeb</strong>: <a href="http://www.librosweb.es/"><code class="url">http://www.librosweb.es/</code></a>. Aún así, los estilos descritos son de ejemplo, los cuales pueden mejorarse o implementarse de otra forma.</p>
+    <p>El nivel de comprensión de los estilos mostrados a continuación dependarán de los conocimientos de CSS que posea. Si desea introducirse más en profundidad con los estilos en cascada, puede consultar la colección referente a este tema en <strong>LibrosWeb</strong>: <a href="http://www.librosweb.es/"><code class="url">http://www.librosweb.es/</code></a>. Aún así, los estilos descritos son de ejemplo, los cuales pueden mejorarse o implementarse de otra forma.</p>
     </blockquote>
     <div id="estilos-generales">
     <h3><a href="#TOC">Estilos generales</a></h3>
@@ -2249,7 +2250,7 @@
     <ul>
     <li><p>Verificar que el diseño se visualiza correctamente en todos los navegadores soportados. En caso que exista algún problema de diseño con <em>Internet Explorer</em>, recuerde que existe el archivo <code>template_ie.css</code> en donde es posible añadir estilos que únicamente serán cargados por dicho navegador.</p></li>
     <li><p>Experimentar con diferentes tipos de contenidos para poder comprobar lo flexible que es la plantilla y en que situaciones es posible encontrar un error.</p></li>
-    <li><p>Crear dos capturas de pantallas: <code>template_preview.png</code> que será una imagen a tamaño real del <em>template</em> y <code>template_thumbnail.png</code> que será una imagen miniatura del diseño. Dichas imágenes van dentro de la carpeta raiz de la plantilla.</p></li>
+    <li><p>Crear dos capturas de pantallas: <code>template_preview.png</code> que será una imagen a tamaño real del <em>template</em> y <code>template_thumbnail.png</code> que será una imagen miniatura del diseño. Dichas imágenes van dentro de la carpeta raíz de la plantilla.</p></li>
     </ul>
     <div class="figure">
     <img src="incluir/figuras/image37.png" alt="Detalles de la plantilla" /><p class="caption">Detalles de la plantilla</p>
@@ -2263,12 +2264,12 @@
     <h1><a href="#TOC">Temas avanzados</a></h1>
     <div id="estilos-de-plantillas-par&#225;metros-de-configuraci&#243;n-y-maquetaciones-diferentes-por-secciones">
     <h2><a href="#TOC">Estilos de plantillas, parámetros de configuración y maquetaciones diferentes por secciones</a></h2>
-    <p>Como se comentó la principio del manual, a partir de Joomla! 1.6, el CMS posee una nueva funcionalidad llamada estilos de plantillas. Dichos estilos permiten, a través de parámetros de configuración, variar el diseño de la plantilla en varios aspectos: colores, imágenes, maquetación, tamaños, entre otras características. A su vez cada estilo puede ser asignado a una o varias secciones especificas.</p>
+    <p>Como se comentó la principio del manual, a partir de Joomla! 1.6, el CMS incorpora una nueva funcionalidad llamada estilos de plantillas. Dichos estilos permiten, a través de parámetros de configuración, variar el diseño de la plantilla en varios aspectos: colores, imágenes, maquetación, tamaños, entre otras características. A su vez cada estilo puede ser asignado a una o varias secciones especificas.</p>
     <div class="figure">
     <img src="incluir/figuras/image44.png" alt="Par&#225;metros de configuraci&#243;n de la plantilla" /><p class="caption">Parámetros de configuración de la plantilla</p>
     </div>
     <blockquote>
-    <p>Recuerde que el listado de estilos de plantillas se puede encontrar yendo, en la administración, a Extensiones &gt; Gestor de plantillas. Al ingresar a alguno de los items enlistados se pueden visualizar los parámetros disponibles para configurar y a que secciones aplicarlos.</p>
+    <p>Recuerde que el listado de estilos de plantillas se puede encontrar yendo, en la administración, a Extensiones &gt; Gestor de plantillas. Al ingresar a alguno de los ítems enlistados se pueden visualizar los parámetros disponibles para configurar y a que secciones aplicarlos.</p>
     </blockquote>
     <p>En el caso de la plantilla creada de ejemplo, se le añadirán varios parámetros de configuración para poder:</p>
     <ul>
@@ -2587,7 +2588,7 @@
     <ul>
     <li>En la administración, ir al gestor de estilos de plantillas;</li>
     <li>Duplicar el estilo predeterminado para el sitio;</li>
-    <li>Acceder a esta copia, cambiar la opción de maquetación y decidir a que items del menú desea ver el nuevo diseño.</li>
+    <li>Acceder a esta copia, cambiar la opción de maquetación y decidir a que ítems del menú desea ver el nuevo diseño.</li>
     </ul>
     <p>Por ejemplo, si se selecciona asignar el nuevo diseño a una categoría dada, al ingresar a un articulo de esa categoría se visualizará la sección central desacomodada.</p>
     <div class="figure">
@@ -2709,7 +2710,7 @@
     </div>
     <p>En este caso de los módulos, la carpeta <code>tmpl</code> posee archivos que se utilizaran para personalizar a gusto el HTML del mismo.</p>
     <blockquote>
-    <p>En Joomla, los archivos que componen cada componente pueden encontrarse dentro de la carpeta <code>components</code>, en el directorio raíz del CMS. Allí cada componente está separado por carpetas diferentes (<code>com_banners</code>, <code>com_contact</code>, etc). En el caso de los módulos, estos se encuentran en la carpeta <code>modules</code>, también en el directorio raiz del CMS. Y al igual que el caso anterior, cada módulo está separado en una carpeta diferente (<code>mod_articles_archive</code>, <code>mod_articles_categories</code>, etc).</p>
+    <p>En Joomla, los archivos que componen cada componente pueden encontrarse dentro de la carpeta <code>components</code>, en el directorio raíz del CMS. Allí cada componente está separado por carpetas diferentes (<code>com_banners</code>, <code>com_contact</code>, etc). En el caso de los módulos, estos se encuentran en la carpeta <code>modules</code>, también en el directorio raíz del CMS. Y al igual que el caso anterior, cada módulo está separado en una carpeta diferente (<code>mod_articles_archive</code>, <code>mod_articles_categories</code>, etc).</p>
     </blockquote>
     <blockquote>
     <p>Si desea conocer un poco más sobre MVC puede consultar:</p>
@@ -3261,7 +3262,7 @@
     <img src="incluir/figuras/image36.png" alt="Dise&#241;o predeterminado de la p&#225;gina de error 404 en Joomla" /><p class="caption">Diseño predeterminado de la página de error 404 en Joomla</p>
     </div>
     <p>Como se puede observar, no posee un aspecto “muy amigable”.</p>
-    <p>Lo que se hará es modificar la página de errores para que herede el diseño del sitio. Para esto, hacerlo es necesario modificar el archivo <code>error.php</code> que se encuentra en la carpeta raiz de la plantilla. Al abrir al archivo se encontrará lo siguiente:</p>
+    <p>Lo que se hará es modificar la página de errores para que herede el diseño del sitio. Para esto, hacerlo es necesario modificar el archivo <code>error.php</code> que se encuentra en la carpeta raíz de la plantilla. Al abrir al archivo se encontrará lo siguiente:</p>
     <pre class="php"><code>&lt;?php
     /**
     * @version                $Id: error.php 20196 2011-01-09 02:40:25Z ian $
@@ -3628,7 +3629,7 @@
     </div>
     <div id="estilos-determinados-para-diferentes-navegadores">
     <h2><a href="#TOC">Estilos determinados para diferentes navegadores</a></h2>
-    <p>Un problema común al diseñar una página es tratar de hacer que el diseño sea compatible con la mayoría de los navegadores. Joomla! 1.6 posee una nueva característica que es la incorporación de estilos específicos dependiendo del tipo de navegador web.</p>
+    <p>Un problema común al diseñar una página es tratar de hacer que el diseño sea compatible con la mayoría de los navegadores. A partir de Joomla! 1.6 el CMS incorpora una nueva característica que es la incorporación de estilos específicos dependiendo del tipo de navegador web.</p>
     <p>Suponiendo que se desea mostrar estilos diferentes para <em>Internet Explorer</em> y <em>Mozilla Firefox</em>, lo primero a realizar será crear dos archivos: <code>template_msie.css</code> y <code>template_mozilla.css</code>. El primero será el archivo que cargará <em>Internet Explorer</em>, mientras que el otro será el que cargue <em>Mozilla Firefox</em>.</p>
     <p>Luego, en el archivo <code>index.php</code> de la plantilla se incorpora:</p>
     <pre class="php"><code>&lt;?php
