@@ -112,6 +112,9 @@ defined('_JEXEC') or die;
 La línea indicada podrá encontrarla en muchos archivos fuente de Joomla. Se incorpora por motivos de seguridad, su objetivo es asegurar que el archivo PHP está siendo ejecutado dentro de la sesión y contexto del CMS (de forma tal que si un usuario quiere vulnerar el sitio ejecutando un archivo en particular, le sea difícil realizarlo).
 
 
+
+> **Nota**
+>
 > Más información sobre `JEXEC`: <http://docs.joomla.org/JEXEC>
 
 
@@ -127,9 +130,15 @@ Para crear varias funcionalidades JavaScript, Joomla utiliza el *framework* *[Mo
 Al incorporar la línea mostrada con el argumento `true`, se especifica que también se cargue en la plantilla el archivo `mootools-more.js`, el cual posee diversas funciones que potencian aún más al framework JavaScript.
 
 
+
+> **Nota**
+>
 > Note que si quita la línea de código en `index.php`, Mootools seguirá cargandose en la plantilla.
 
 
+
+> **Nota**
+>
 > Más información sobre Mootools y Mootools More: <http://mootools.net/> y <http://mootools.net/more/>
 
 
@@ -144,6 +153,9 @@ $app = JFactory::getApplication();
 Esta línea guarda en la variable `$app` una referencia al objeto PHP de Joomla `JApplication`. Sin entrar en detalles técnicos, utilizando esta línea es posible obtener información del sitio para mostrar dentro de la plantilla (por ejemplo: nombre del sitio, título de la página, nombre del *template*, etc).
 
 
+
+> **Nota**
+>
 > Puede consultar la información relacionada con JApplication en <http://api.joomla.org/Joomla-Framework/Application/JApplication.html>
 
 
@@ -160,6 +172,9 @@ Esta línea guarda en la variable `$app` una referencia al objeto PHP de Joomla 
 El siguiente bloque de código declara el [tipo de documento](http://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_tipo_de_documento) (`Doctype`) de la plantilla, así como también la codificación, idioma y [dirección de escritura](http://www.w3.org/International/tutorials/bidi-xhtml/Overview.es.php) (de izquierda a derecha o viceversa). `$this` es una referencia al objeto PHP de Joomla `JDocumentHTML`, el cual posee información necesaria para crear el documento HTML (archivos cargados, información de etiquetas meta, idioma, etc).
 
 
+
+> **Nota**
+>
 > Puede consultar la información relacionada a `JDocumentHTML` en <http://docs.joomla.org/JDocumentHTML>
 
 
@@ -226,6 +241,9 @@ A continuación se incorporan los archivos pertenecientes al framework CSS *[Blu
 * **/plugins/joomla-nav/screen.css**: Estilos específicos para el menú de navegación horizontal del sitio.
 
 
+
+> **Nota**
+>
 > Más adelante se explicará la utilización de *BluePrint*
 
 
@@ -246,6 +264,9 @@ En esta parte del código, `$this` se utiliza para completar el valor del atribu
 El siguiente trozo de código tiene un solo objetivo: Leer la configuración del CMS y determinar la dirección de lectura. En caso que el valor sea `rtl` (de derecha a izquierda  o *right to left* en inglés) se cargan los estilos apropiados.
 Si el sitio tendrá un sentido de lectura de izquierda a derecha, este trozo de código se puede eliminar.
 
+
+> **Nota**
+>
 > Note que el bloque condicional `if` no tiene la sintaxis clásica que se suele utilizar:
 >
 >
@@ -258,7 +279,7 @@ if () {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >
 >
->Esto es porque se utiliza una sintaxis alternativa que permite mejorar la lectura del código y su funcionamiento es exactamente el mismo que la manera clásica. 
+> Esto es porque se utiliza una sintaxis alternativa que permite mejorar la lectura del código y su funcionamiento es exactamente el mismo que la manera clásica. 
 Más información: <http://www.php.net/manual/es/control-structures.alternative-syntax.php>
 
 
@@ -306,6 +327,9 @@ El siguiente trozo de código se repite varias veces en el cuerpo del documento,
 * `$this->countModules()`: Esta función lo que hace es contar la cantidad de módulos publicados en una determinada posición de la plantilla. En el ejemplo mostrado, se pregunta cuantos módulos estan publicados en la posición `atomic-search`, en caso de ser igual o mayor a 1, se ejecuta el código siguiente. Esto se suele hacer para que no se muestre código HTML vacío en caso que un módulo no esté publicado (como es el caso de las etiquetas `<div />` en el código que se muestra.
 
 
+
+> **Nota**
+>
 > Más información sobre `countModules()`: <http://docs.joomla.org/JDocumentHTML/countModules>
 
 
@@ -322,12 +346,18 @@ El siguiente trozo de código se repite varias veces en el cuerpo del documento,
 		* outline: Este estilo se suele utilizar para funciones de depuración. El mismo permite mostrar una linea punteada delimitando el tamaño del módulo para notar su tamaño y espacio ocupado en la plantilla.
 		
 
+
+> **Nota**
+>
 > Puede encontrar más información sobre los diferentes estilos de presentación de módulos en <http://docs.joomla.org/What_is_module_chrome%3F>
 
 
 A su vez, Joomla! permite incorporar estilos personalizados para mostrar módulos. Estos estilos deben ir especificados en el archivo `modules.php` dentro de la carpeta `html` de la plantilla.
 
 
+
+> **Nota**
+>
 > Más adelante se explicará como añadir diferentes estilos de presentación de módulos.
 
 
@@ -361,6 +391,9 @@ Otros trozos de código que incorporan posiciones de módulos en `index.php`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Note que varios trozos de código utilizan estilos personalizados: container, bottommodule y sidebar. Más adelante se explicará la creación de estilos personalizados de módulos.
 
 

@@ -5,6 +5,9 @@
 **[BluePrint](http://www.blueprintcss.org/)** es una colección de archivos `.css`, los cuales poseen variados estilos predefinidos para ahorrar tiempo en diferentes tareas del diseño web: Maquetaciones, reseteo de estilos, diseño de formularios, tipografías, etc. Para la creación de la maquetación de la plantilla se utilizará su sistema de grillas.
 
 
+
+> **Nota**
+>
 > Puede obtener más información sobre BluePrint en su sitio web: <http://www.blueprintcss.org/>
 
 

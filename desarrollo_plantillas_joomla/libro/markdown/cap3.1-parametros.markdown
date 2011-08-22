@@ -9,6 +9,9 @@ Como se comentó la principio del manual, a partir de Joomla! 1.6, el CMS incorp
 ![Parámetros de configuración de la plantilla](incluir/figuras/image44.png)
 
 
+
+> **Nota**
+>
 > Recuerde que el listado de estilos de plantillas se puede encontrar yendo, en la administración, a Extensiones > Gestor de plantillas. Al ingresar a alguno de los ítems enlistados se pueden visualizar los parámetros disponibles para configurar y a que secciones aplicarlos.
 
 
@@ -52,6 +55,9 @@ Como se muestra, la etiqueta más importante es `<field />`. Dicha etiqueta pose
 * `description`: La descripción será la explicación del campo.
 
 
+
+> **Nota**
+>
 > Note que para los atributos `label` y `description` se utiliza `TPL_INTERPOINT_LOGO_LABEL` y `TPL_INTERPOINT_LOGO_DESC`. Estas dos referencias se deben agregar en el archivo `es-ES.tpl_interpoint.ini` junto a los textos correspondientes.
 
 
@@ -239,6 +245,9 @@ Siguiendo los mismos pasos anteriores, se modifica `templateDetails.xml` añadie
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Note que se añadieron dos nuevos atributos: 
 > * `default`: Será el valor predeterminado en caso que el campo esté imcompleto;
 > * `filter`: Este permite especificar el tipo de información que se espera en el campo (`string`, `word`, `integer`);
@@ -333,6 +342,9 @@ Por lo tanto, al igual que antes, se modifica `templateDetails.xml`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Note que el parámetro, al ser del tipo lista, necesita tener definidas las opciones que se podrán seleccionar.
 
 
@@ -394,6 +406,9 @@ Luego, dentro del cuerpo del documento se agrega una nueva maquetación y posici
 En caso que se haya seleccionado la opción "1 columna", se muestra el contenido en una maquetación de una sola columna. Caso contrario, se muestra una maquetación de dos columnas.
 
 
+
+> **Nota**
+>
 > Note que se agregó una nueva posición de módulo: `interpoint-columna_derecha`. Esta deber ser agregada además en `templateDetails.xml` y la referencia de su descripción en `es-ES.tpl_interpoint.sys.ini`.
 
 

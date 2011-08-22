@@ -5,6 +5,9 @@
 Anteriormente se mostró el aprovechamiento de **Mootools** para facilitar el armado de funciones JavaScript. Sin embargo, puede suceder que se necesite utilizar a **jQuery**, otra popular biblioteca JavaScript para dotar de funcionalidades a la plantilla. 
 
 
+
+> **Nota**
+>
 > Más información sobre jQuery: <http://jquery.com/>
 > Aprender a utilizar jQuery: <http://librojquery.com/>
 
@@ -39,6 +42,9 @@ jQuery.noConflict();
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	
+
+> **Nota**
+>
 > La línea anterior permite que jQuery funcione sin problemas con otras bibliotecas JavaScript (como es el caso de Mootools). Hay que tener en cuenta que, cuando se escriban funciones jQuery, en lugar de utilizar el símbolo `$`, se deberá utilizar la palabra `jQuery`.
 > Por ejemplo, la siguiente función:
 >

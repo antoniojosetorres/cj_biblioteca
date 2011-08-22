@@ -29,6 +29,9 @@ A partir de la versión 1.6, el CMS incorpora varias características nuevas rel
 * Detección integrada de navegadores, para poder cargar un estilo diferente para cada tipo de navegador.
 
 
+
+> **Nota**
+>
 > Si desea conocer en mayor detalle otras características de Joomla! 1.6, puede visitar el sitio oficial dedicado a dicha versión: <http://www.joomla.org/16/>
 
 
@@ -67,6 +70,9 @@ Por otro lado, al acceder al apartado estilos, como se mencionó antes, podrá n
 Esta funcionalidad lo que permite es, utilizando un mismo *template* otorgar un diseño diferente a determinadas secciones. Por ejemplo: En gran parte del sitio se desea utilizar la plantilla con un diseño predeterminado, pero en la sección *contacto* se requiere que el color de fondo sea otro y que la estructura sea más angosta.
 
 
+
+> **Nota**
+>
 > Las características de personalización dependerán de cada plantilla. Existirán plantillas que otorgarán muchas opciones y flexibilidad mientras que otras otorgarán pocas o ninguna.
 
 

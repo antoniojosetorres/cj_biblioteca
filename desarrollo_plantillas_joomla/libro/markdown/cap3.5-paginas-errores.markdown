@@ -11,6 +11,9 @@ Cada error siempre va acompañado por un código de estado HTTP. Los tipos de er
 * **500 - Error interno**: Sucede al existir un error interno del servidor web.
 
 
+
+> **Nota**
+>
 > Más información sobre los códigos de estado HTTP: <http://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP>
 
 
@@ -81,6 +84,9 @@ if (!isset($this->error)) {
 Lo primero a hacer es borrar el contenido e incorporar una estructura similar a la creada en `index.php`.
 
 
+
+> **Nota**
+>
 > Es importante entender que `error.php` no funciona de forma exactamente igual a `index.php`. Por ejemplo, los parámetros de la plantilla se acceden de diferente forma y no es posible insertar módulos y contenidos de la manera anteriormente vista (a través de la directiva `<jdoc:include />`).
 
 
@@ -220,6 +226,9 @@ $eslogan = $params->get('eslogan');
 A igual que en `index.php`, se necesita acceder a las valores de los parámetros de la plantilla. Sin embargo, aquí se realiza diferente forma, utilizando `getApplication()`, el cual posee el objeto PHP global de la aplicación.
 
 
+
+> **Nota**
+>
 > Más información sobre `getApplication`: <http://docs.joomla.org/JFactory::getApplication>
 
 
@@ -259,6 +268,9 @@ A igual que en `index.php`, se necesita acceder a las valores de los parámetros
 Luego, se crea el `Doctype` del documento, se inserta el título y los archivos CSS de la plantilla. Los archivos JavaScript no son necesarios, por lo tanto no se incorporan. 
 
 
+
+> **Nota**
+>
 > Note que se utiliza `$this->error->getCode()` para obtener el código del error actual de la página y así mostrarlo en el título de la página.
 
 
@@ -338,12 +350,18 @@ Esta sección es la más importante. En ella existen dos bloques condicionales:
 * En caso que la página no sea encontrada (404), se mostrará un mensaje conveniente e se invitará al usuario a realizar una búsqueda o continuar por la página principal del sitio. Algo importante es que la caja de búsqueda se incorpora a través de la directiva `JModuleHelper::getModule()` en la cual entre parentesis se le indica el tipo de módulo a mostrar (en este caso `search`).
 
 
+
+> **Nota**
+>
 > Más información sobre getModule: <http://docs.joomla.org/JModuleHelper::getModule>
 
 
 * En caso que la página posea un error interno (500), también se mostrará un mensaje conveniente invitando al usuario a continuar por la página principal. Por otro lado, para tener de referencia, se mostrará el tipo de error que se produjo a través de la directiva `$this->error->getMessage()`.
 
 
+
+> **Nota**
+>
 > Una buena práctica es no incorporar los textos en nuestro idioma dentro del archivo, sino utilizar los archivos del idioma de la plantilla. Esto se puede realizar una vez comprobado que los textos a mostrar son los correctos.
 
 

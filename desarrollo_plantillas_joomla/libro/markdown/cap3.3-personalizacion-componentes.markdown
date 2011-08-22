@@ -19,6 +19,9 @@ Para realizarlo, se hará lo siguiente:
 * Allí dentro se encontrará a la carpeta `views`. Al entrar a ella, existirá otra carpeta con el nombre `search`.
 
 
+
+> **Nota**
+>
 > Dependiendo del tipo de componente, es posible encontrar más de una carpeta dentro del directorio `views`. Por ejemplo, al ir a la carpeta `views` del componente `com_content` se encontrarán 6 directorios: `archive`, `article`, `categories`, `category`, `featured` y `form`. Cada carpeta es una funcionalidad distinta del componente.
 
 
@@ -28,6 +31,9 @@ Para realizarlo, se hará lo siguiente:
 ![Disposición de archivos en la carpeta 'tmpl'](incluir/figuras/image13.png)
 
 
+
+> **Nota**
+>
 > Note que existe más de un archivo `.php` dentro del directorio. Esto es debido a que, al ser los componentes más complejos, suelen dividir su HTML en varios archivos para reunirlos en uno solo (`default.php`).
 
 
@@ -39,6 +45,9 @@ Para realizarlo, se hará lo siguiente:
 ![Estructura del directorio 'html' de la plantilla](incluir/figuras/image12.png)
 
 
+
+> **Nota**
+>
 > Note que se ha creado una carpeta `search`. Esta corresponde al nombre de la carpeta `search` que se encuentra dentro del directorio `views` del componente. En caso de que existan otras carpetas con otros nombres, se debe seguir la misma lógica.
 
 
@@ -150,6 +159,9 @@ $doc->addScriptDeclaration ($js);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Note que, para insertar el estilo CSS y la función JavaScript, ha utilizado `JFactory::getDocument()`, `addStyleDeclaration()` y `addScriptDeclaration()`. El beneficio de utilizar estas funciones es que Joomla se encarga de insertar todo el código dentro de las etiquetas `<head />` de la plantilla. 
 >
 > Más información sobre:
@@ -162,6 +174,9 @@ $doc->addScriptDeclaration ($js);
 > Otra manera de realizar el trabajo es utilizando las etiquetas `<style type="text/css" />` y `<script type="text/javascript" />`. El funcionamiento sería el mismo, pero todo el código quedaría dentro del `<body />` del documento.
 
 
+
+> **Nota**
+>
 > Para realizar la funcionalidad JavaScript, se ha aprovechado que Joomla utiliza **Mootools** como *framework* JavaScript. Esta biblioteca posee una clase JavaScript llamada `Fx.Slide` que permite realizar el tipo de efecto se necesita. Más información sobre `Fx.Slide`: <http://mootools.net/docs/more/Fx/Fx.Slide>
 
 
@@ -173,6 +188,9 @@ $doc->addScriptDeclaration ($js);
 
 
 
+
+> **Nota**
+>
 > Una buena práctica es incorporar el texto **Búsqueda avanzada** dentro de los archivos del idioma de la plantilla y no en el mismo archivo `.php`.
 
 

@@ -5,6 +5,9 @@
 Llegó el momento de añadir diseño a la plantilla. Para eso se editará el archivo `template.css` que se encuentra dentro de la carpeta `css` de la plantilla. Note que ya existe contenido dentro del archivo, lo que se hará es borrarlo para luego incorporar los estilos apropiados. 
 
 
+
+> **Nota**
+>
 > Antes de comenzar a escribir los estilos, es muy importante tener preparados los recortes de las diferentes imágenes que componen el diseño. Dichas imágenes deben ir guardadas en la carpeta `images` de la plantilla.
 
 
@@ -13,12 +16,21 @@ Llegó el momento de añadir diseño a la plantilla. Para eso se editará el arc
 
 
 
+
+> **Nota**
+>
 > Si no sabe recortar imágenes con Photoshop, puede consultar el siguiente artículo: <http://www.todo-photoshop.com/tutorial-photoshop/basicos/recortando_imagenes_photoshop.html>
 
 
+
+> **Nota**
+>
 > A medida que se van aplicando los estilos es conveniente ir rellenando el sitio con contenidos (menús, artículos, etc.) para poder visualizar de mejor manera el trabajo.
 
 
+
+> **Nota**
+>
 > El nivel de comprensión de los estilos mostrados a continuación dependarán de los conocimientos de CSS que posea. Si desea introducirse más en profundidad con los estilos en cascada, puede consultar la colección referente a este tema en **LibrosWeb**: <http://www.librosweb.es/>.
 > Aún así, los estilos descritos son de ejemplo, los cuales pueden mejorarse o implementarse de otra forma.
 
@@ -395,6 +407,9 @@ Para los mostrar el artículo se utilizó un módulo del tipo **Artículos - Not
 Para la sección de slideshow, se utilizó un módulo de **HTML personalizado**. Se incorporó una sola imagen en modo de demostración.
 
 
+
+> **Nota**
+>
 > El slideshow aún no es funcional. Más adelante se explicará como agregar la funcionalidad a la plantilla utilizando JavaScript.
 
 

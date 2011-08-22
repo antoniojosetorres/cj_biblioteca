@@ -51,12 +51,18 @@ Luego, en el archivo `index.php` de la plantilla se incorpora:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Antes de cargar el archivo correspondiente, Joomla comprueba que éste exista en el directorio web.
 
 
 `JHtml` es la función que se encargará de detectar el tipo de navegador y cargará los archivos necesarios. Algo interesante es que además es posible cargar un archivo para una determinada versión de un navegador. Por ejemplo, si se desea establecer un estilo para `Internet Explorer 8`, el nombre del archivo debe ser `template_msie_8.css`. 
 
 
+
+> **Nota**
+>
 > Es posible encontrar más información sobre las diferentes variantes para cargar archivos específicos para un navegador en los comentarios de la función `stylesheet()` en el archivo `/libraries/joomla/html/html.php`.
 > También podemos cargar archivos `.js` para distintos navegadores, pero en lugar de poner `stylesheet` como parámetro de `JHtml` debemos cambiarlo por `script`. 
 
@@ -79,6 +85,9 @@ if (($menu->getActive() == $menu->getDefault()))
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Más información sobre `getMenu()`: <http://docs.joomla.org/JApplication::getMenu>
 
 
@@ -98,6 +107,9 @@ if ($usuario->guest == 1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Más información sobre `getUser()`: <http://docs.joomla.org/Accessing_the_current_user_object>
 
 
@@ -121,5 +133,8 @@ if ($componente == "com_content")
 De la misma forma es posible obtener otros parámetros como son `ItemId`, `view`, etc.
 
 
+
+> **Nota**
+>
 > Más información sobre la obtención de variables por `POST` y `GET`: <http://docs.joomla.org/Retrieving_data_from_GET_and_POST_requests>
 

@@ -129,6 +129,9 @@ En esta sección se tendrá en primer lugar dos columnas y luego una columna ocu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	
+
+> **Nota**
+>
 > Note que se ha agregado `<jdoc:include type="message" />` para que aparezcan los mensajes del sistema debajo de cabecera del diseño.
 
 
@@ -233,6 +236,9 @@ De esta forma se hará que se muestren, como máximo, tres artículos, separados
 Por lo tanto, Joomla se encarga de generar el HTML que necesitamos para poder lograr las columnas del medio.
 
 
+
+> **Nota**
+>
 > Otra solución para generar tres columnas sería utilizar tres módulos separados y crear por nuestra cuenta el HTML de cada columna.
 
 
@@ -292,6 +298,9 @@ Finalmente para esta zona también se utilizarán dos columnas, una para el text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+> **Nota**
+>
 > Note que además de las clases span-8 se utilizó prepend-3 para mover el contenido de las columnas hacia la derecha en cada columna.
 
 

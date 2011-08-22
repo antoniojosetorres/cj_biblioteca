@@ -29,6 +29,9 @@ A continuación de enumeran algunas cuestiones que deberá tener en cuenta al mo
 	* Posiciones de módulos: Esta es una definición que dependerá de los elementos que compongan a la plantilla y su disposición. Para hacerlo, deberá delimitar el diseño en “zonas funcionales”, por ejemplo: zona perteneciente al menú, zona perteneciente a la caja de búsqueda, zona perteneciente a elementos izquierdos, etc. A partir de esta definición, le será fácil definir las posiciones de módulos y sus nombres.
 
 
+
+> **Nota**
+>
 > Tenga en cuenta que no siempre se podrá contar con anticipación con todos los puntos nombrados, sin embargo, cuanto antes los tenga, mejor.
 
 
@@ -80,6 +83,9 @@ A partir de la versión 1.6, Joomla incorpora una nueva plantilla llamada *atomi
 Para comenzar, lo primero será ir a la carpeta `templates` para copiar y pegar el directorio `atomic`. Luego se renombra la carpeta copiada con el nombre que se ha seleccionado para la plantilla.
 
 
+
+> **Nota**
+>
 > El nombre debe estar en minúsculas y con guiones bajos (en caso de tener espacios de por medio).
 
 

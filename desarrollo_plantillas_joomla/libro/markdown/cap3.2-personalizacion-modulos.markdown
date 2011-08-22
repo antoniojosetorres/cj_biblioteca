@@ -23,10 +23,16 @@ En donde existe una carpeta `controllers`, otra `models` y otra `views`. En ést
 En este caso de los módulos, la carpeta `tmpl` posee archivos que se utilizaran para personalizar a gusto el HTML del mismo.
 
 
+
+> **Nota**
+>
 > En Joomla, los archivos que componen cada componente pueden encontrarse dentro de la carpeta `components`, en el directorio raíz del CMS. Allí cada componente está separado por carpetas diferentes (`com_banners`, `com_contact`, etc).
 > En el caso de los módulos, estos se encuentran en la carpeta `modules`, también en el directorio raíz del CMS. Y al igual que el caso anterior, cada módulo está separado en una carpeta diferente (`mod_articles_archive`, `mod_articles_categories`, etc). 
 
 
+
+> **Nota**
+>
 > Si desea conocer un poco más sobre MVC puede consultar:
 >
 > * <http://es.wikipedia.org/wiki/Modelo_Vista_Controlador>
@@ -150,6 +156,9 @@ El nombre de la función debe estar conformado por `modChrome_(nombre_del_estilo
 * `&$attribs`:  Antes se señaló que la directiva `<jdoc:include type="modules" />` posee los atributos `type`, `name` y `style`. Sin embargo es posible agregar más atributos personalizados con el nombre y valor que se desee. Luego, para poder obtener el valor de los nuevos atributos, se utiliza a `$attribs`. En el caso del estilo creado, se agregará un nuevo atributo llamado `headerLevel`, quedando la directiva de esta forma: `<jdoc:include type="modules" name="(nombre_de_la_posicion)" style="personalizado" headerLevel="3" />`.
 
 
+
+> **Nota**
+>
 > Notar que el atributo `style` para poder utilizar el estilo personalizado, posee el valor `personalizado` no `modChrome_personalizado` (que es el nombre de la función).
 
 
@@ -361,6 +370,9 @@ Si se publica el módulo **estadísticas** en el sitio, se podrá ver que en lug
 En caso de querer personalizar otros módulos, se deben realizar los mismos pasos descritos.
 
 
+
+> **Nota**
+>
 > Note que `atomic`, la plantilla utilizada como base para el trabajo, ya posee varios módulos personalizados dentro de la carpeta `html`:
 >
 > * `mod_custom`

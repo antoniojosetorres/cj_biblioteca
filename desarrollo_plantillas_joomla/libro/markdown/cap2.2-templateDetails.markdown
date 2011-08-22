@@ -137,6 +137,9 @@ Para entender lo modificado, a continuación se muestra un detalle de cada secci
 
 Las primeras etiquetas corresponden a la información asociada a la plantilla: Nombre, fecha de creación, autor, contacto, licencia, versión y descripción. 
 
+
+> **Nota**
+>
 > Note  que en la descripción se ha puesto `TPL_INTERPOINT_XML_DESCRIPTION`, que es una referencia que se incorporará en el archivo de lenguaje `es-ES.tpl_interpoint.ini`. La idea es que todos los textos localizados estén situados en el archivo del idioma, por si en un futuro la plantilla se utilizada en más idiomas.
 
 
@@ -211,6 +214,9 @@ Por último se añaden los archivos del idioma, los cuales tendrán la descripci
 TPL_INTERPOINT_XML_DESCRIPTION="Template de ejemplo para Joomla!"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
+
+> **Nota**
+>
 > Note que `TPL_INTERPOINT_XML_DESCRIPTION` hace referencia al término incorporado en la etiqueta `<description />` en el archivo `templateDetails.xml`. El texto de descripción se puede cambiar a gusto.
 
 * Guardar `es-ES.tpl_interpoint.ini`;
@@ -234,12 +240,21 @@ TPL_INTERPOINT_POSITION_INTERPOINT-MENU_INFERIOR="Menú inferior"
 * Guardar `es-ES.tpl_interpoint.sys.ini`.
 
 
+
+> **Nota**
+>
 > Note que cada referencia de descripción de módulos esta compuesta por `TPL_(nombre de la plantilla)_POSITION_(nombre de la posición del módulo)`. También se ha agregado nuevamente la descripción de la plantilla con la misma referencia que se usó anteriormente. Los textos de descripción de cada posición se pueden cambiar al gusto.
 
 
+
+> **Nota**
+>
 > En el momento de instalar la plantilla, los archivos `es-ES.tpl_interpoint.ini` y `es-ES.tpl_interpoint.sys.ini` se copiarán dentro de la carpeta `language/es-ES`, en el directorio raíz del CMS.
 
 
+
+> **Nota**
+>
 > En el archivo `templateDetails.xml` también se especifican las opciones de personalización de la plantilla. Más adelante se explicará como añadir esta característica y de que forma.
 
 

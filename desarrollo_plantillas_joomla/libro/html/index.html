@@ -280,6 +280,7 @@
     <li><p>Detección integrada de navegadores, para poder cargar un estilo diferente para cada tipo de navegador.</p></li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Si desea conocer en mayor detalle otras características de Joomla! 1.6, puede visitar el sitio oficial dedicado a dicha versión: <a href="http://www.joomla.org/16/"><code class="url">http://www.joomla.org/16/</code></a></p>
     </blockquote>
     <div id="tipos-de-plantillas">
@@ -306,6 +307,7 @@
     </div>
     <p>Esta funcionalidad lo que permite es, utilizando un mismo <em>template</em> otorgar un diseño diferente a determinadas secciones. Por ejemplo: En gran parte del sitio se desea utilizar la plantilla con un diseño predeterminado, pero en la sección <em>contacto</em> se requiere que el color de fondo sea otro y que la estructura sea más angosta.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Las características de personalización dependerán de cada plantilla. Existirán plantillas que otorgarán muchas opciones y flexibilidad mientras que otras otorgarán pocas o ninguna.</p>
     </blockquote>
     <p>Al acceder a uno de los ítems enlistados, es posible acceder a las opciones de personalización y especificar a qué secciones se desea asignar el estilo.</p>
@@ -383,6 +385,7 @@
     </ul></li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Tenga en cuenta que no siempre se podrá contar con anticipación con todos los puntos nombrados, sin embargo, cuanto antes los tenga, mejor.</p>
     </blockquote>
     <p>En el caso de este manual, se utilizará el siguiente diseño para la realización de la plantilla.</p>
@@ -415,6 +418,7 @@
     <p>A partir de la versión 1.6, Joomla incorpora una nueva plantilla llamada <em>atomic</em>, la cual tiene como objetivo que pueda ser utilizada como base para la creación de nuevas plantillas. Su principal característica es la de utilizar <a href="http://www.blueprintcss.org/">Blueprint</a>, un <em>framework</em> CSS que permite agilizar la creación de estilos y maquetaciones.</p>
     <p>Para comenzar, lo primero será ir a la carpeta <code>templates</code> para copiar y pegar el directorio <code>atomic</code>. Luego se renombra la carpeta copiada con el nombre que se ha seleccionado para la plantilla.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>El nombre debe estar en minúsculas y con guiones bajos (en caso de tener espacios de por medio).</p>
     </blockquote>
     <div class="figure">
@@ -542,6 +546,7 @@
     </code></pre>
     <p>Las primeras etiquetas corresponden a la información asociada a la plantilla: Nombre, fecha de creación, autor, contacto, licencia, versión y descripción.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que en la descripción se ha puesto <code>TPL_INTERPOINT_XML_DESCRIPTION</code>, que es una referencia que se incorporará en el archivo de lenguaje <code>es-ES.tpl_interpoint.ini</code>. La idea es que todos los textos localizados estén situados en el archivo del idioma, por si en un futuro la plantilla se utilizada en más idiomas.</p>
     </blockquote>
     </div>
@@ -617,12 +622,15 @@
     <li>Guardar <code>es-ES.tpl_interpoint.sys.ini</code>.</li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que cada referencia de descripción de módulos esta compuesta por <code>TPL_(nombre de la plantilla)_POSITION_(nombre de la posición del módulo)</code>. También se ha agregado nuevamente la descripción de la plantilla con la misma referencia que se usó anteriormente. Los textos de descripción de cada posición se pueden cambiar al gusto.</p>
     </blockquote>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>En el momento de instalar la plantilla, los archivos <code>es-ES.tpl_interpoint.ini</code> y <code>es-ES.tpl_interpoint.sys.ini</code> se copiarán dentro de la carpeta <code>language/es-ES</code>, en el directorio raíz del CMS.</p>
     </blockquote>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>En el archivo <code>templateDetails.xml</code> también se especifican las opciones de personalización de la plantilla. Más adelante se explicará como añadir esta característica y de que forma.</p>
     </blockquote>
     <p>Con esto listo, es posible continuar con la visualización del template en la administración de Joomla.</p>
@@ -747,6 +755,7 @@
     </code></pre>
     <p>La línea indicada podrá encontrarla en muchos archivos fuente de Joomla. Se incorpora por motivos de seguridad, su objetivo es asegurar que el archivo PHP está siendo ejecutado dentro de la sesión y contexto del CMS (de forma tal que si un usuario quiere vulnerar el sitio ejecutando un archivo en particular, le sea difícil realizarlo).</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre <code>JEXEC</code>: <a href="http://docs.joomla.org/JEXEC"><code class="url">http://docs.joomla.org/JEXEC</code></a></p>
     </blockquote>
     </div>
@@ -756,9 +765,11 @@
     </code></pre>
     <p>Para crear varias funcionalidades JavaScript, Joomla utiliza el <em>framework</em> <em><a href="http://mootools.net/">Mootools</a></em>. Dicho framework está compuesto por varios archivos <code>.js</code> que se cargan de forma predeterminada en la cabecera de la plantilla (<code>&lt;head /&gt;</code>). Al incorporar la línea mostrada con el argumento <code>true</code>, se especifica que también se cargue en la plantilla el archivo <code>mootools-more.js</code>, el cual posee diversas funciones que potencian aún más al framework JavaScript.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que si quita la línea de código en <code>index.php</code>, Mootools seguirá cargandose en la plantilla.</p>
     </blockquote>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre Mootools y Mootools More: <a href="http://mootools.net/"><code class="url">http://mootools.net/</code></a> y <a href="http://mootools.net/more/"><code class="url">http://mootools.net/more/</code></a></p>
     </blockquote>
     </div>
@@ -768,6 +779,7 @@
     </code></pre>
     <p>Esta línea guarda en la variable <code>$app</code> una referencia al objeto PHP de Joomla <code>JApplication</code>. Sin entrar en detalles técnicos, utilizando esta línea es posible obtener información del sitio para mostrar dentro de la plantilla (por ejemplo: nombre del sitio, título de la página, nombre del <em>template</em>, etc).</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Puede consultar la información relacionada con JApplication en <a href="http://api.joomla.org/Joomla-Framework/Application/JApplication.html"><code class="url">http://api.joomla.org/Joomla-Framework/Application/JApplication.html</code></a></p>
     </blockquote>
     </div>
@@ -779,6 +791,7 @@
     </code></pre>
     <p>El siguiente bloque de código declara el <a href="http://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_tipo_de_documento">tipo de documento</a> (<code>Doctype</code>) de la plantilla, así como también la codificación, idioma y <a href="http://www.w3.org/International/tutorials/bidi-xhtml/Overview.es.php">dirección de escritura</a> (de izquierda a derecha o viceversa). <code>$this</code> es una referencia al objeto PHP de Joomla <code>JDocumentHTML</code>, el cual posee información necesaria para crear el documento HTML (archivos cargados, información de etiquetas meta, idioma, etc).</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Puede consultar la información relacionada a <code>JDocumentHTML</code> en <a href="http://docs.joomla.org/JDocumentHTML"><code class="url">http://docs.joomla.org/JDocumentHTML</code></a></p>
     </blockquote>
     </div>
@@ -821,6 +834,7 @@
     <li><p><strong>/plugins/joomla-nav/screen.css</strong>: Estilos específicos para el menú de navegación horizontal del sitio.</p></li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más adelante se explicará la utilización de <em>BluePrint</em></p>
     </blockquote>
     <p>En esta parte del código, <code>$this</code> se utiliza para completar el valor del atributo <code>href</code> hacia los archivos CSS: primero obteniendo la URL del sitio (<code>$this-&gt;baseurl</code>) y luego el nombre de la plantilla configurada para utilizar (<code>$this-&gt;template</code>).</p>
@@ -834,6 +848,7 @@
     </code></pre>
     <p>El siguiente trozo de código tiene un solo objetivo: Leer la configuración del CMS y determinar la dirección de lectura. En caso que el valor sea <code>rtl</code> (de derecha a izquierda o <em>right to left</em> en inglés) se cargan los estilos apropiados. Si el sitio tendrá un sentido de lectura de izquierda a derecha, este trozo de código se puede eliminar.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que el bloque condicional <code>if</code> no tiene la sintaxis clásica que se suele utilizar:</p>
     <pre class="php"><code>if () {
     ...
@@ -872,6 +887,7 @@
     <li><code>$this-&gt;countModules()</code>: Esta función lo que hace es contar la cantidad de módulos publicados en una determinada posición de la plantilla. En el ejemplo mostrado, se pregunta cuantos módulos estan publicados en la posición <code>atomic-search</code>, en caso de ser igual o mayor a 1, se ejecuta el código siguiente. Esto se suele hacer para que no se muestre código HTML vacío en caso que un módulo no esté publicado (como es el caso de las etiquetas <code>&lt;div /&gt;</code> en el código que se muestra.</li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre <code>countModules()</code>: <a href="http://docs.joomla.org/JDocumentHTML/countModules"><code class="url">http://docs.joomla.org/JDocumentHTML/countModules</code></a></p>
     </blockquote>
     <ul>
@@ -889,10 +905,12 @@
     </ul></li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Puede encontrar más información sobre los diferentes estilos de presentación de módulos en <a href="http://docs.joomla.org/What_is_module_chrome%3F"><code class="url">http://docs.joomla.org/What_is_module_chrome%3F</code></a></p>
     </blockquote>
     <p>A su vez, Joomla! permite incorporar estilos personalizados para mostrar módulos. Estos estilos deben ir especificados en el archivo <code>modules.php</code> dentro de la carpeta <code>html</code> de la plantilla.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más adelante se explicará como añadir diferentes estilos de presentación de módulos.</p>
     </blockquote>
     <p>Los módulos no suelen ocupar posiciones principales de la plantilla, sino más bien son elementos funcionales al sitio: Menús de navegación, cajas de encuestas, formularios de ingreso, etc. La posición principal de la plantilla, por lo general, es ocupada por el contenido de los distintos componentes del CMS (artículos de noticias, seccciones y categorías, etc).</p>
@@ -920,6 +938,7 @@
     &lt;?php endif; ?&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que varios trozos de código utilizan estilos personalizados: container, bottommodule y sidebar. Más adelante se explicará la creación de estilos personalizados de módulos.</p>
     </blockquote>
     </div>
@@ -950,6 +969,7 @@
     <h2><a href="#TOC">El sistema de grillas de BluePrint</a></h2>
     <p><strong><a href="http://www.blueprintcss.org/">BluePrint</a></strong> es una colección de archivos <code>.css</code>, los cuales poseen variados estilos predefinidos para ahorrar tiempo en diferentes tareas del diseño web: Maquetaciones, reseteo de estilos, diseño de formularios, tipografías, etc. Para la creación de la maquetación de la plantilla se utilizará su sistema de grillas.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Puede obtener más información sobre BluePrint en su sitio web: <a href="http://www.blueprintcss.org/"><code class="url">http://www.blueprintcss.org/</code></a></p>
     </blockquote>
     <p>El sistema de grillas de <code>BluePrint</code> es muy fácil de utilizar, permitiendo agilizar de forma severa el proceso de maquetación. Su mecanismo permite crear un máximo de 24 columnas (o grillas) las cuales se pueden combinar dependiendo de las necesidades.</p>
@@ -1085,6 +1105,7 @@
     &lt;!-- Fin Caja medio --&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que se ha agregado <code>&lt;jdoc:include type=&quot;message&quot; /&gt;</code> para que aparezcan los mensajes del sistema debajo de cabecera del diseño.</p>
     </blockquote>
     </div>
@@ -1173,6 +1194,7 @@
     </code></pre>
     <p>Por lo tanto, Joomla se encarga de generar el HTML que necesitamos para poder lograr las columnas del medio.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Otra solución para generar tres columnas sería utilizar tres módulos separados y crear por nuestra cuenta el HTML de cada columna.</p>
     </blockquote>
     </div>
@@ -1220,6 +1242,7 @@
     &lt;!-- Fin Footer --&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que además de las clases span–8 se utilizó prepend–3 para mover el contenido de las columnas hacia la derecha en cada columna.</p>
     </blockquote>
     <p>Si se juntan todas las partes, el archivo <code>index.php</code> quedará conformado de la siguiente forma:</p>
@@ -1356,18 +1379,22 @@
     <h2><a href="#TOC">El archivo template.css</a></h2>
     <p>Llegó el momento de añadir diseño a la plantilla. Para eso se editará el archivo <code>template.css</code> que se encuentra dentro de la carpeta <code>css</code> de la plantilla. Note que ya existe contenido dentro del archivo, lo que se hará es borrarlo para luego incorporar los estilos apropiados.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Antes de comenzar a escribir los estilos, es muy importante tener preparados los recortes de las diferentes imágenes que componen el diseño. Dichas imágenes deben ir guardadas en la carpeta <code>images</code> de la plantilla.</p>
     </blockquote>
     <div class="figure">
     <img src="incluir/figuras/image11.png" alt="Im&#225;genes recortadas que conformar&#225;n el dise&#241;o" /><p class="caption">Imágenes recortadas que conformarán el diseño</p>
     </div>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Si no sabe recortar imágenes con Photoshop, puede consultar el siguiente artículo: <a href="http://www.todo-photoshop.com/tutorial-photoshop/basicos/recortando_imagenes_photoshop.html"><code class="url">http://www.todo-photoshop.com/tutorial-photoshop/basicos/recortando_imagenes_photoshop.html</code></a></p>
     </blockquote>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>A medida que se van aplicando los estilos es conveniente ir rellenando el sitio con contenidos (menús, artículos, etc.) para poder visualizar de mejor manera el trabajo.</p>
     </blockquote>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>El nivel de comprensión de los estilos mostrados a continuación dependarán de los conocimientos de CSS que posea. Si desea introducirse más en profundidad con los estilos en cascada, puede consultar la colección referente a este tema en <strong>LibrosWeb</strong>: <a href="http://www.librosweb.es/"><code class="url">http://www.librosweb.es/</code></a>. Aún así, los estilos descritos son de ejemplo, los cuales pueden mejorarse o implementarse de otra forma.</p>
     </blockquote>
     <div id="estilos-generales">
@@ -1712,6 +1739,7 @@
     <p>Para los mostrar el artículo se utilizó un módulo del tipo <strong>Artículos - Noticias de actualidad</strong>. Se lo configuró para mostrar un solo artículo, de una categoría definida, ordenado por fecha. De esta forma, en esta sección pueden ir, por ejemplo, las últimas noticias del sitio y cada vez que se carga una noticia nueva, esta aparece en dicho lugar.</p>
     <p>Para la sección de slideshow, se utilizó un módulo de <strong>HTML personalizado</strong>. Se incorporó una sola imagen en modo de demostración.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>El slideshow aún no es funcional. Más adelante se explicará como agregar la funcionalidad a la plantilla utilizando JavaScript.</p>
     </blockquote>
     </div>
@@ -2269,6 +2297,7 @@
     <img src="incluir/figuras/image44.png" alt="Par&#225;metros de configuraci&#243;n de la plantilla" /><p class="caption">Parámetros de configuración de la plantilla</p>
     </div>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Recuerde que el listado de estilos de plantillas se puede encontrar yendo, en la administración, a Extensiones &gt; Gestor de plantillas. Al ingresar a alguno de los ítems enlistados se pueden visualizar los parámetros disponibles para configurar y a que secciones aplicarlos.</p>
     </blockquote>
     <p>En el caso de la plantilla creada de ejemplo, se le añadirán varios parámetros de configuración para poder:</p>
@@ -2299,6 +2328,7 @@
     <li><p><code>description</code>: La descripción será la explicación del campo.</p></li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que para los atributos <code>label</code> y <code>description</code> se utiliza <code>TPL_INTERPOINT_LOGO_LABEL</code> y <code>TPL_INTERPOINT_LOGO_DESC</code>. Estas dos referencias se deben agregar en el archivo <code>es-ES.tpl_interpoint.ini</code> junto a los textos correspondientes.</p>
     </blockquote>
     <div class="figure">
@@ -2460,6 +2490,7 @@
     &lt;/config&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que se añadieron dos nuevos atributos: * <code>default</code>: Será el valor predeterminado en caso que el campo esté imcompleto; * <code>filter</code>: Este permite especificar el tipo de información que se espera en el campo (<code>string</code>, <code>word</code>, <code>integer</code>);</p>
     </blockquote>
     <div class="figure">
@@ -2532,6 +2563,7 @@
     &lt;/config&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que el parámetro, al ser del tipo lista, necesita tener definidas las opciones que se podrán seleccionar.</p>
     </blockquote>
     <div class="figure">
@@ -2582,6 +2614,7 @@
     </code></pre>
     <p>En caso que se haya seleccionado la opción “1 columna”, se muestra el contenido en una maquetación de una sola columna. Caso contrario, se muestra una maquetación de dos columnas.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que se agregó una nueva posición de módulo: <code>interpoint-columna_derecha</code>. Esta deber ser agregada además en <code>templateDetails.xml</code> y la referencia de su descripción en <code>es-ES.tpl_interpoint.sys.ini</code>.</p>
     </blockquote>
     <p>Para poder aplicar la nueva maquetación en el sitio utilizando los estilos de plantillas, se debe:</p>
@@ -2710,9 +2743,11 @@
     </div>
     <p>En este caso de los módulos, la carpeta <code>tmpl</code> posee archivos que se utilizaran para personalizar a gusto el HTML del mismo.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>En Joomla, los archivos que componen cada componente pueden encontrarse dentro de la carpeta <code>components</code>, en el directorio raíz del CMS. Allí cada componente está separado por carpetas diferentes (<code>com_banners</code>, <code>com_contact</code>, etc). En el caso de los módulos, estos se encuentran en la carpeta <code>modules</code>, también en el directorio raíz del CMS. Y al igual que el caso anterior, cada módulo está separado en una carpeta diferente (<code>mod_articles_archive</code>, <code>mod_articles_categories</code>, etc).</p>
     </blockquote>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Si desea conocer un poco más sobre MVC puede consultar:</p>
     <ul>
     <li><a href="http://es.wikipedia.org/wiki/Modelo_Vista_Controlador"><code class="url">http://es.wikipedia.org/wiki/Modelo_Vista_Controlador</code></a></li>
@@ -2809,6 +2844,7 @@
     <li><p><code>&amp;$attribs</code>: Antes se señaló que la directiva <code>&lt;jdoc:include type=&quot;modules&quot; /&gt;</code> posee los atributos <code>type</code>, <code>name</code> y <code>style</code>. Sin embargo es posible agregar más atributos personalizados con el nombre y valor que se desee. Luego, para poder obtener el valor de los nuevos atributos, se utiliza a <code>$attribs</code>. En el caso del estilo creado, se agregará un nuevo atributo llamado <code>headerLevel</code>, quedando la directiva de esta forma: <code>&lt;jdoc:include type=&quot;modules&quot; name=&quot;(nombre_de_la_posicion)&quot; style=&quot;personalizado&quot; headerLevel=&quot;3&quot; /&gt;</code>.</p></li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Notar que el atributo <code>style</code> para poder utilizar el estilo personalizado, posee el valor <code>personalizado</code> no <code>modChrome_personalizado</code> (que es el nombre de la función).</p>
     </blockquote>
     </div>
@@ -2969,6 +3005,7 @@
     <p>Si se publica el módulo <strong>estadísticas</strong> en el sitio, se podrá ver que en lugar de utilizar las etiquetas HTML que posee el archivo <code>default.php</code> en la carpeta <code>tmpl</code>, se utilizaran las etiquetas del archivo creado en la carpeta <code>mod_stats</code> del directorio <code>html</code> de la plantilla.</p>
     <p>En caso de querer personalizar otros módulos, se deben realizar los mismos pasos descritos.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que <code>atomic</code>, la plantilla utilizada como base para el trabajo, ya posee varios módulos personalizados dentro de la carpeta <code>html</code>:</p>
     <ul>
     <li><code>mod_custom</code></li>
@@ -2995,6 +3032,7 @@
     <li>Allí dentro se encontrará a la carpeta <code>views</code>. Al entrar a ella, existirá otra carpeta con el nombre <code>search</code>.</li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Dependiendo del tipo de componente, es posible encontrar más de una carpeta dentro del directorio <code>views</code>. Por ejemplo, al ir a la carpeta <code>views</code> del componente <code>com_content</code> se encontrarán 6 directorios: <code>archive</code>, <code>article</code>, <code>categories</code>, <code>category</code>, <code>featured</code> y <code>form</code>. Cada carpeta es una funcionalidad distinta del componente.</p>
     </blockquote>
     <ul>
@@ -3004,6 +3042,7 @@
     <img src="incluir/figuras/image13.png" alt="Disposici&#243;n de archivos en la carpeta tmpl" /><p class="caption">Disposición de archivos en la carpeta ‘tmpl’</p>
     </div>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que existe más de un archivo <code>.php</code> dentro del directorio. Esto es debido a que, al ser los componentes más complejos, suelen dividir su HTML en varios archivos para reunirlos en uno solo (<code>default.php</code>).</p>
     </blockquote>
     <ul>
@@ -3014,6 +3053,7 @@
     <img src="incluir/figuras/image12.png" alt="Estructura del directorio html de la plantilla" /><p class="caption">Estructura del directorio ‘html’ de la plantilla</p>
     </div>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que se ha creado una carpeta <code>search</code>. Esta corresponde al nombre de la carpeta <code>search</code> que se encuentra dentro del directorio <code>views</code> del componente. En caso de que existan otras carpetas con otros nombres, se debe seguir la misma lógica.</p>
     </blockquote>
     <p>Lo siguiente será abrir el archivo <code>default_form.php</code> copiado, y modificarlo al gusto.</p>
@@ -3108,6 +3148,7 @@
     ?&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que, para insertar el estilo CSS y la función JavaScript, ha utilizado <code>JFactory::getDocument()</code>, <code>addStyleDeclaration()</code> y <code>addScriptDeclaration()</code>. El beneficio de utilizar estas funciones es que Joomla se encarga de insertar todo el código dentro de las etiquetas <code>&lt;head /&gt;</code> de la plantilla.</p>
     <p>Más información sobre:</p>
     <ul>
@@ -3119,6 +3160,7 @@
     <p>Otra manera de realizar el trabajo es utilizando las etiquetas <code>&lt;style type=&quot;text/css&quot; /&gt;</code> y <code>&lt;script type=&quot;text/javascript&quot; /&gt;</code>. El funcionamiento sería el mismo, pero todo el código quedaría dentro del <code>&lt;body /&gt;</code> del documento.</p>
     </blockquote>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Para realizar la funcionalidad JavaScript, se ha aprovechado que Joomla utiliza <strong>Mootools</strong> como <em>framework</em> JavaScript. Esta biblioteca posee una clase JavaScript llamada <code>Fx.Slide</code> que permite realizar el tipo de efecto se necesita. Más información sobre <code>Fx.Slide</code>: <a href="http://mootools.net/docs/more/Fx/Fx.Slide"><code class="url">http://mootools.net/docs/more/Fx/Fx.Slide</code></a></p>
     </blockquote>
     <div class="figure">
@@ -3128,6 +3170,7 @@
     <img src="incluir/figuras/image19.png" alt="Dise&#241;o de la p&#225;gina de resultados al hacer clic en el enlace B&#250;squeda avanzada" /><p class="caption">Diseño de la página de resultados al hacer clic en el enlace ‘Búsqueda avanzada’</p>
     </div>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Una buena práctica es incorporar el texto <strong>Búsqueda avanzada</strong> dentro de los archivos del idioma de la plantilla y no en el mismo archivo <code>.php</code>.</p>
     </blockquote>
     <p>De esta manera ya se tiene terminada la personalización del componente. En caso que se quiera realizar lo mismo con otros componentes se deben realizar los mismos pasos descritos anteriormente.</p>
@@ -3145,6 +3188,7 @@
     <h2><a href="#TOC">Incorporación de jQuery</a></h2>
     <p>Anteriormente se mostró el aprovechamiento de <strong>Mootools</strong> para facilitar el armado de funciones JavaScript. Sin embargo, puede suceder que se necesite utilizar a <strong>jQuery</strong>, otra popular biblioteca JavaScript para dotar de funcionalidades a la plantilla.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre jQuery: <a href="http://jquery.com/"><code class="url">http://jquery.com/</code></a> Aprender a utilizar jQuery: <a href="http://librojquery.com/"><code class="url">http://librojquery.com/</code></a></p>
     </blockquote>
     <p>Los pasos para incorporar jQuery en la plantilla son los siguientes:</p>
@@ -3169,6 +3213,7 @@
     <pre class="javascript"><code>jQuery.noConflict();
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>La línea anterior permite que jQuery funcione sin problemas con otras bibliotecas JavaScript (como es el caso de Mootools). Hay que tener en cuenta que, cuando se escriban funciones jQuery, en lugar de utilizar el símbolo <code>$</code>, se deberá utilizar la palabra <code>jQuery</code>. Por ejemplo, la siguiente función:</p>
     <pre><code>  $(&quot;#footer&quot;).hide();
     </code></pre>
@@ -3256,6 +3301,7 @@
     <li><strong>500 - Error interno</strong>: Sucede al existir un error interno del servidor web.</li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre los códigos de estado HTTP: <a href="http://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP"><code class="url">http://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP</code></a></p>
     </blockquote>
     <div class="figure">
@@ -3319,6 +3365,7 @@
     </code></pre>
     <p>Lo primero a hacer es borrar el contenido e incorporar una estructura similar a la creada en <code>index.php</code>.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Es importante entender que <code>error.php</code> no funciona de forma exactamente igual a <code>index.php</code>. Por ejemplo, los parámetros de la plantilla se acceden de diferente forma y no es posible insertar módulos y contenidos de la manera anteriormente vista (a través de la directiva <code>&lt;jdoc:include /&gt;</code>).</p>
     </blockquote>
     <pre class="php"><code>&lt;?php
@@ -3447,6 +3494,7 @@
     </code></pre>
     <p>A igual que en <code>index.php</code>, se necesita acceder a las valores de los parámetros de la plantilla. Sin embargo, aquí se realiza diferente forma, utilizando <code>getApplication()</code>, el cual posee el objeto PHP global de la aplicación.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre <code>getApplication</code>: <a href="http://docs.joomla.org/JFactory::getApplication"><code class="url">http://docs.joomla.org/JFactory::getApplication</code></a></p>
     </blockquote>
     </div>
@@ -3481,6 +3529,7 @@
     </code></pre>
     <p>Luego, se crea el <code>Doctype</code> del documento, se inserta el título y los archivos CSS de la plantilla. Los archivos JavaScript no son necesarios, por lo tanto no se incorporan.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Note que se utiliza <code>$this-&gt;error-&gt;getCode()</code> para obtener el código del error actual de la página y así mostrarlo en el título de la página.</p>
     </blockquote>
     </div>
@@ -3550,12 +3599,14 @@
     <li>En caso que la página no sea encontrada (404), se mostrará un mensaje conveniente e se invitará al usuario a realizar una búsqueda o continuar por la página principal del sitio. Algo importante es que la caja de búsqueda se incorpora a través de la directiva <code>JModuleHelper::getModule()</code> en la cual entre parentesis se le indica el tipo de módulo a mostrar (en este caso <code>search</code>).</li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre getModule: <a href="http://docs.joomla.org/JModuleHelper::getModule"><code class="url">http://docs.joomla.org/JModuleHelper::getModule</code></a></p>
     </blockquote>
     <ul>
     <li>En caso que la página posea un error interno (500), también se mostrará un mensaje conveniente invitando al usuario a continuar por la página principal. Por otro lado, para tener de referencia, se mostrará el tipo de error que se produjo a través de la directiva <code>$this-&gt;error-&gt;getMessage()</code>.</li>
     </ul>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Una buena práctica es no incorporar los textos en nuestro idioma dentro del archivo, sino utilizar los archivos del idioma de la plantilla. Esto se puede realizar una vez comprobado que los textos a mostrar son los correctos.</p>
     </blockquote>
     </div>
@@ -3647,10 +3698,12 @@
     ?&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Antes de cargar el archivo correspondiente, Joomla comprueba que éste exista en el directorio web.</p>
     </blockquote>
     <p><code>JHtml</code> es la función que se encargará de detectar el tipo de navegador y cargará los archivos necesarios. Algo interesante es que además es posible cargar un archivo para una determinada versión de un navegador. Por ejemplo, si se desea establecer un estilo para <code>Internet Explorer 8</code>, el nombre del archivo debe ser <code>template_msie_8.css</code>.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Es posible encontrar más información sobre las diferentes variantes para cargar archivos específicos para un navegador en los comentarios de la función <code>stylesheet()</code> en el archivo <code>/libraries/joomla/html/html.php</code>. También podemos cargar archivos <code>.js</code> para distintos navegadores, pero en lugar de poner <code>stylesheet</code> como parámetro de <code>JHtml</code> debemos cambiarlo por <code>script</code>.</p>
     </blockquote>
     </div>
@@ -3667,6 +3720,7 @@
     ?&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre <code>getMenu()</code>: <a href="http://docs.joomla.org/JApplication::getMenu"><code class="url">http://docs.joomla.org/JApplication::getMenu</code></a></p>
     </blockquote>
     </div>
@@ -3682,6 +3736,7 @@
     ?&gt;
     </code></pre>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre <code>getUser()</code>: <a href="http://docs.joomla.org/Accessing_the_current_user_object"><code class="url">http://docs.joomla.org/Accessing_the_current_user_object</code></a></p>
     </blockquote>
     </div>
@@ -3698,6 +3753,7 @@
     </code></pre>
     <p>De la misma forma es posible obtener otros parámetros como son <code>ItemId</code>, <code>view</code>, etc.</p>
     <blockquote>
+    <p><strong>Nota</strong></p>
     <p>Más información sobre la obtención de variables por <code>POST</code> y <code>GET</code>: <a href="http://docs.joomla.org/Retrieving_data_from_GET_and_POST_requests"><code class="url">http://docs.joomla.org/Retrieving_data_from_GET_and_POST_requests</code></a></p>
     </blockquote>
     </div>
