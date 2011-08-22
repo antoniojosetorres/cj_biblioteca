@@ -1,10 +1,10 @@
 
 
-# Introducción a las plantillas en Joomla!
+# Introducción a las plantillas en Joomla!®
 
 ## Bienvenido/a
 
-En el momento de construir un sitio web utilizando Joomla!, la creación de plantillas (o *templates*) suele ser uno de los trabajos más comunes que emprenden diseñadores y desarrolladores web.
+En el momento de construir un sitio web utilizando Joomla!®, la creación de plantillas (o *templates*) suele ser uno de los trabajos más comunes que emprenden diseñadores y desarrolladores web.
 
 Este manual pretende ser un documento fundamental para que, tanto usuarios noveles como avanzados, aprendan a realizar una plantilla funcional para Joomla! 1.6 y versiones posteriores.
 
