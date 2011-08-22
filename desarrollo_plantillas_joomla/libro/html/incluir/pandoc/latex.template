@@ -154,23 +154,57 @@ $header-includes$
 $endfor$
 
 
-$if(title)$
-\title{$title$}
-$endif$
-
-
 $if(author)$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 $endif$
+
+
 $if(date)$
 \date{$date$}
 $endif$
 
 
 \begin{document}
-$if(title)$
-\maketitle
+
+
+\begin{titlepage}
+\begin{center}
+
+% Upper part of the page   
+
+\textsc{\LARGE \href{http://comunidadjoomla.org/}{Comunidad Joomla}}\\[0.5cm]
+
+\textsc{\Large \href{http://biblioteca.comunidadjoomla.org/}{Biblioteca Comunidad Joomla}}\\[2.5cm]
+
+% Titulo
+{ \huge \bfseries $title$}\\[2.5cm]
+
+% Autor y correcciones
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Autor:}\\
+\href{http://dzign.us/}{Leandro \textsc{D'Onofrio}}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Correcciones:} \\
+\href{http://comunidadjoomla.org/}{Rafael \textsc{Gómez}} \\
+\href{http://comunidadjoomla.org/}{Gustavo Raúl \textsc{Aragón}}
+\end{flushright}
+\end{minipage}\\[3.5cm]
+
+\textsc{\Large Bajo licencia \href{http://creativecommons.org/licenses/by-nc-sa/2.5/es/}{Creative Commons}}
+
+\vfill
+
+% Fecha
+$if(date)$
+{\large $date$}
 $endif$
+
+\end{center}
+\end{titlepage}
 
 
 $for(include-before)$
