@@ -303,7 +303,7 @@ Si se configuró el parámetro `eslogan`, se muestra el texto correspondiente, c
   
   
   
-#### Aplicar una maquetación diferente
+### Aplicar una maquetación diferente
   
 La idea de esta configuración es poder predisponer de dos presentaciones distintas para mostrar en la parte central de la plantilla:
   

@@ -1,4 +1,4 @@
-/**
+ ccd Dr/**
 * Estilos
 * @version 1.0
 */
@@ -247,6 +247,7 @@ margin:0;
 .libro img {
 max-width:100%;
 display:block;
+margin: 0 auto;
 }
 
 .libro pre {
