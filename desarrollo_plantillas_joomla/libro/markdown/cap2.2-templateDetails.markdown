@@ -140,7 +140,7 @@ Las primeras etiquetas corresponden a la información asociada a la plantilla: N
 
 > **Nota**
 >
-> Note  que en la descripción se ha puesto `TPL_INTERPOINT_XML_DESCRIPTION`, que es una referencia que se incorporará en el archivo de lenguaje `es-ES.tpl_interpoint.ini`. La idea es que todos los textos localizados estén situados en el archivo del idioma, por si en un futuro la plantilla se utilizada en más idiomas.
+> Note  que en la descripción se ha puesto `TPL_INTERPOINT_XML_DESCRIPTION`, que es una referencia que se incorporará en el archivo de lenguaje `es-ES.tpl_interpoint.ini`. La idea es que todos los textos localizados estén situados en el archivo del idioma, por si en un futuro la plantilla es utilizada en más idiomas.
 
 
 ### Sección 2: Carpetas y archivos
