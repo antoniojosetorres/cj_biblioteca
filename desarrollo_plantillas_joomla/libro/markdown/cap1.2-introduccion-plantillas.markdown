@@ -52,7 +52,7 @@ Joomla cuenta con dos tipos de plantillas:
 Las plantillas disponibles para utilizar se encuentran, dentro de la administración, yendo a: **Extensiones > Gestor de plantillas > Plantillas**.
 
 
-![La sección 'Plantillas' en la administración del CMS](incluir/figuras/image07.png)
+![La sección 'Plantillas' en la administración del CMS](../html/incluir/figuras/image07.png)
 
 
 A través del filtro por locación es posible mostrar las plantillas pertenecientes al sitio o a la administración. Al hacer clic sobre la imagen correspondiente, se mostrará una vista alargada del diseño de la plantilla. Además, al clickear en el enlace de detalle, podrá acceder a los archivos principales que componen a la plantilla, así como editarlos desde la misma interfaz.
