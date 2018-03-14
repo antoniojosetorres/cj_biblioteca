@@ -268,19 +268,19 @@ Antes de continuar, es importante que Joomla reconozca la copia realizada de la 
 Para esto, en la administración, vaya a **Extensiones > Gestor de extensiones > Descubrir > Presionar el botón Descubrir**. Si todo sale bien, debería aparecer la plantilla enlistada.
 
 
-![Descubrir la plantilla en la administración de CMS](incluir/figuras/image42.png)
+![Descubrir la plantilla en la administración de CMS](../html/incluir/figuras/image42.png)
 
 
 Lo siguiente será seleccionar el ítem de la plantilla y presionar el botón **Instalar**. Si todo salió bien debe aparecer el texto **“La instalación de la extensión descubierta se ha realizado correctamente”** y más abajo la descripción de la plantilla.
 
 
-![Pantalla de instalación correcta](incluir/figuras/image48.png)
+![Pantalla de instalación correcta](../html/incluir/figuras/image48.png)
 
 
 Finalmente, para poder visualizar la plantilla en el sitio, vaya a **Extensiones > Gestor de plantillas** (Figura 2.6).
 
 
-![La nueva plantilla aparece enlistada](incluir/figuras/image28.png)
+![La nueva plantilla aparece enlistada](../html/incluir/figuras/image28.png)
 
 
 Seleccionar el ítem de la plantilla nueva y presionar el botón **Predeterminada**. De esta forma se logrará que al ingresar al sitio se cargue la plantilla.
