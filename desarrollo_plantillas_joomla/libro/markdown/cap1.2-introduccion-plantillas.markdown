@@ -58,13 +58,13 @@ Las plantillas disponibles para utilizar se encuentran, dentro de la administrac
 A través del filtro por locación es posible mostrar las plantillas pertenecientes al sitio o a la administración. Al hacer clic sobre la imagen correspondiente, se mostrará una vista alargada del diseño de la plantilla. Además, al clickear en el enlace de detalle, podrá acceder a los archivos principales que componen a la plantilla, así como editarlos desde la misma interfaz.
 
 
-![La sección 'Personalizar plantilla' en la administración del CMS](incluir/figuras/image09.png)
+![La sección 'Personalizar plantilla' en la administración del CMS](../html/incluir/figuras/image09.png)
 
 
 Por otro lado, al acceder al apartado estilos, como se mencionó antes, podrá navegar por una de las nuevas características introducidas en Joomla 1.6: Los estilos en plantillas. 
 
 
-![La sección 'Estilos' en la administración del CMS](incluir/figuras/image30.png)
+![La sección 'Estilos' en la administración del CMS](../html/incluir/figuras/image30.png)
 
 
 Esta funcionalidad lo que permite es, utilizando un mismo *template* otorgar un diseño diferente a determinadas secciones. Por ejemplo: En gran parte del sitio se desea utilizar la plantilla con un diseño predeterminado, pero en la sección *contacto* se requiere que el color de fondo sea otro y que la estructura sea más angosta.
@@ -79,7 +79,7 @@ Esta funcionalidad lo que permite es, utilizando un mismo *template* otorgar un 
 Al acceder a uno de los ítems enlistados, es posible acceder a las opciones de personalización y especificar a qué secciones se desea asignar el estilo.
 
 
-![La sección 'Editar estilo' en la administración del CMS](incluir/figuras/image25.png)
+![La sección 'Editar estilo' en la administración del CMS](../html/incluir/figuras/image25.png)
 
 
 El nivel de personalización puede ser variado: Tamaño de estructuras, cambios de imágenes y textos, posición de elementos y diseño.
@@ -93,7 +93,7 @@ Las plantillas en Joomla! van alojadas dentro de la carpeta `templates`, en el d
 Todas las plantillas poseen la siguiente estructura básica de archivos y carpetas.
 
 
-![Esquema de la estructura básica de una plantilla](incluir/figuras/image05.png)
+![Esquema de la estructura básica de una plantilla](../html/incluir/figuras/image05.png)
 
 
 Los archivos y carpetas dentro de la estructura pueden dividirse en obligatorios y no obligatorios:
