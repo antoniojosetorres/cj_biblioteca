@@ -38,7 +38,7 @@ A continuación de enumeran algunas cuestiones que deberá tener en cuenta al mo
 En el caso de este manual, se utilizará el siguiente diseño para la realización de la plantilla.
 
 
-![El diseño a realizar. Créditos: PSD Style - http://psdstyle.net/](incluir/figuras/image14.png)
+![El diseño a realizar. Créditos: PSD Style - http://psdstyle.net/](../html/incluir/figuras/image14.png)
 
 
 Al realizar el análisis, es posible definir las siguientes posiciones de módulos y funcionalidades:
@@ -59,7 +59,7 @@ Al realizar el análisis, es posible definir las siguientes posiciones de módul
 * Un espacio para un slideshow de imágenes;
 
 
-![Definición de las posiciones de módulos y funcionalidades](incluir/figuras/image22.png)
+![Definición de las posiciones de módulos y funcionalidades](../html/incluir/figuras/image22.png)
 
 
 Además la plantilla contará con las siguientes definiciones:
@@ -89,7 +89,7 @@ Para comenzar, lo primero será ir a la carpeta `templates` para copiar y pegar 
 > El nombre debe estar en minúsculas y con guiones bajos (en caso de tener espacios de por medio).
 
 
-![Copia de la carpeta 'atomic' dentro de 'templates'](incluir/figuras/image51.png)
+![Copia de la carpeta 'atomic' dentro de 'templates'](../html/incluir/figuras/image51.png)
 
 
 Lo siguiente será ir por cada uno de los archivos para modificarlos en base a las necesidades solicitadas.
